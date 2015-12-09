@@ -11,21 +11,7 @@
     <script type="text/javascript" src="js/wow.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script>
-        var wow = new WOW(
-          {
-              //boxClass: 'wow',      // animated element css class (default is wow)
-              //animateClass: 'animated', // animation css class (default is animated)
-              //offset: 0,          // distance to the element when triggering the animation (default is 0)
-              //mobile: true,       // trigger animations on mobile devices (default is true)
-              //live: true,       // act on asynchronously loaded content (default is true)
-              //callback: function (box) {
-              //    // the callback is fired every time an animation is started
-              //    // the argument that is passed in is the DOM node being animated
-              //},
-              //scrollContainer: ['section1', 'window'] // optional scroll container selector, otherwise use window
-          }
-        );
-        wow.init();
+        new WOW().init();
     </script>
 
     <!--[if IE]>
@@ -41,6 +27,8 @@
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script type="text/javascript" src="js/myFullpage.js"></script>
 
+
+
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -55,18 +43,18 @@
     <div id="fullpage">
         <!--Gifmas-->
         <div class="section" id="section0">
-            <div class="viewportContainer wow bounceInUp">
-                <img src="assets/image/text_section_01.svg" />
+            <div class="viewportContainer wow bounceinup" data-wow-duration="2s" data-wow-delay="1s" />
+                <img src="assets/image/text_section_01.svg"/>
             </div>
         </div>
 
         <!--twas the night-->
         <div class="section " id="section1">
             <div class="viewportContainer">
-                <img src="assets/image/text_section_02.svg" />
+                <img src="assets/image/text_section_02.svg" id="text02"/>
                 <!-- <img src="assets/image/section02_text.png" id="iphone2" />-->
                 <!--<img src="imgs/iphone3.png" alt="iphone" id="iphone3" />
-                <img src="imgs/iphone4.png" alt="iphone" id="iphone4" />-->
+        <img src="imgs/iphone4.png" alt="iphone" id="iphone4" />-->
             </div>
         </div>
 
@@ -86,91 +74,11 @@
         </div>
 
         <!--building-->
-        <div class="section waypoint-width">
+        <div class="section">
 
             <div id="basic-waypoint">
-              <div class="tile" id="block-1">
-              <div class="align-bottom">
-                <div class="trees-left">
-                  <div class="tree-1"><img src="assets/image/tree_1a.svg"></div>
-                  <div class="tree-2"><img src="assets/image/tree_1a.svg"></div>
-                  <div class="tree-3"><img src="assets/image/tree_1a.svg"></div>
-                </div>
-                <div class="trees-right">
-                  <div class="tree-4"><img src="assets/image/tree_1a.svg"></div>
-                  <div class="tree-5"><img src="assets/image/tree_1a.svg"></div>
-                </div>
-              </div>
-              <div class="text-1">
-                <img src="assets/image/text_01.svg">
-              </div>
-            </div>
-            <div class="tile" id="block-2">
-              <div class="text-2">
-                <img src="assets/image/text_01.svg">
-              </div>
-            </div>
-            <div class="tile" id="block-3">
-              <div class="text-3">
-                <img src="assets/image/text_01.svg">
-              </div>
-            </div>
-            <div class="tile" id="block-4">
-              <div class="container-scene">
-                <div class="align-bottom">
-                  <div class="trees-left">
-                    <div class="tree-1"><img src="assets/image/tree_1a.svg"></div>
-                    <div class="tree-2"><img src="assets/image/tree_1a.svg"></div>
-                    <div class="tree-3"><img src="assets/image/tree_1a.svg"></div>
-                  </div>
-                  <div class="trees-right">
-                    <div class="tree-4"><img src="assets/image/tree_1a.svg"></div>
-                    <div class="tree-5"><img src="assets/image/tree_1a.svg"></div>
-                  </div>
-                </div>
-                <div class="container-building">
-                  <div class="building-basic">
-                    <div class="roof-left"></div>
-                    <div class="roof-middle"></div>
-                    <div class="roof-right"></div>
-                  </div>
-                  <div class="building-floors">
-                    <div class="center-me">
-                      <div class="gif-container gif-01"></div>
-                      <div class="gif-container gif-02"></div>
-                      <div class="gif-container gif-03"></div>
-                      <div class="gif-container gif-04"></div>
-                      <div class="gif-container gif-05"></div>
-                      <div class="gif-container gif-06"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                      <div class="gif-container"></div>
-                    </div>
-                  </div>
-                  <div class="building-basic">
-                    <div class="door"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="container-ground"></div>
-            </div>
                 <!-- space to top -->
-            <!--  <div style="height:400px"></div>
+                <div style="height:400px"></div>
 
                 <img class="containerForGifs" src="assets/image/jpg/01.jpg" id="gifStill_01" />
                 <img class="emptyWindow" src="assets/image/windowEmpty.png" />
@@ -202,24 +110,12 @@
                 <img class="emptyWindow" src="assets/image/windowEmpty.png" />
                 <img class="emptyWindow" src="assets/image/windowEmpty.png" />
                 <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" /> -->
 
 
                 <!-- space so that the gifs on bottom can also be shown -->
-                <!-- <div style="height:800px">
+                <div style="height:800px">
 
-                </div>-->
+                </div>
             </div>
 
             <!-- <img class="containerForGifs" src="assets/image/jpg/14.jpg" id="gifStill_14" />-->
