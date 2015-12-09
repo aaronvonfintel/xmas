@@ -13,7 +13,7 @@
                 //$('#iphone3, #iphone2, #iphone4').addClass('active');
 
                 $('#text02').addClass('active');
-                alert("index 2");
+                //alert("index 2");
             }
 
         },
