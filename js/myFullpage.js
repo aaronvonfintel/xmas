@@ -6,11 +6,11 @@
         'navigationPosition': 'right',
         'navigationTooltips': ['Gifmas', '', '', 'Building'],
         'scrollOverflow': true,
-        'scrollbar': true,
+        
         'afterLoad': function (anchorLink, index) {
 
             if (index == 2) {
-                //$('#iphone3, #iphone2, #iphone4').addClass('active');
+                $('#iphone3, #iphone2, #iphone4').addClass('active');
 
                 $('#text02').addClass('active');
                 //alert("index 2");
