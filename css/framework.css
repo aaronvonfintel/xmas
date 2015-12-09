@@ -1,0 +1,469 @@
+/* Typeface -- webfonts */
+@font-face {
+  font-family: "HelveticaNeueW01-UltLt";
+  src: url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
+  src: url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"), url("../assets/fonts/9baef9a5-e2af-4838-a3bc-da9d36c0bde8.woff2") format("woff2"), url("../assets/fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"), url("../assets/fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"), url("../assets/fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg"); }
+@font-face {
+  font-family: "HelveticaNeueW01-Thin";
+  src: url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
+  src: url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"), url("../assets/fonts/aff68211-86bb-476d-882e-f7a3face144c.woff2") format("woff2"), url("../assets/fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"), url("../assets/fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"), url("../assets/fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg"); }
+@font-face {
+  font-family: "HelveticaNeueW01-ThinIt";
+  src: url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix");
+  src: url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix") format("eot"), url("../assets/fonts/259bda14-7f43-47ac-b7ac-2baa71dbc05f.woff2") format("woff2"), url("../assets/fonts/b6d63cb7-64b5-4d39-beaf-a8d9fe5eb1df.woff") format("woff"), url("../assets/fonts/284ad777-0022-42a3-9197-c449457c670a.ttf") format("truetype"), url("../assets/fonts/202b6353-ffff-45b1-9a1a-89497323d7ed.svg#202b6353-ffff-45b1-9a1a-89497323d7ed") format("svg"); }
+@font-face {
+  font-family: "HelveticaNeueW01-45Ligh";
+  src: url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+  src: url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"), url("../assets/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"), url("../assets/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"), url("../assets/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"), url("../assets/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg"); }
+@font-face {
+  font-family: "HelveticaNeueW01-46Ligh";
+  src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix");
+  src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix") format("eot"), url("../assets/fonts/09f28057-e848-49b3-94bf-bfaefff51b64.woff2") format("woff2"), url("../assets/fonts/8e9ee02b-f337-4f13-ad6c-969d6d6536c8.woff") format("woff"), url("../assets/fonts/beddbbc6-203e-4f36-8960-3f5ca22af567.ttf") format("truetype"), url("../assets/fonts/af177436-d9e8-44e8-9c9c-ef2d945f20a3.svg#af177436-d9e8-44e8-9c9c-ef2d945f20a3") format("svg"); }
+@font-face {
+  font-family: "HelveticaNeueW01-65Medi";
+  src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
+  src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"), url("../assets/fonts/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"), url("../assets/fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"), url("../assets/fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"), url("../assets/fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg"); }
+@font-face {
+  font-family: "HelveticaNeueW01-66Medi";
+  src: url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix");
+  src: url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix") format("eot"), url("../assets/fonts/9a31d352-a4be-4540-a6f2-f4ea3ea77d94.woff2") format("woff2"), url("../assets/fonts/5f0efe11-b07a-49fc-ab86-7af6152fa368.woff") format("woff"), url("../assets/fonts/fea58e5b-b0a7-43f7-8928-fc0639365852.ttf") format("truetype"), url("../assets/fonts/398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7.svg#398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7") format("svg"); }
+/*	Resets
+	------	*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup,
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+  display: block; }
+
+a img {
+  border: 0; }
+
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* Variables ----------- */
+/*	Typography presets
+	------------------	*/
+.huge, h1 {
+  font-family: 'HelveticaNeueW01-45Ligh';
+  font-size: 85px;
+  line-height: 85px;
+  letter-spacing: -1px; }
+
+.large, h2 {
+  font-family: 'HelveticaNeueW01-45Ligh';
+  font-size: 45px;
+  line-height: 45px; }
+
+body {
+  font-family: 'HelveticaNeueW01-Thin';
+  font-size: 18px; }
+
+p {
+  font-family: 'HelveticaNeueW01-Thin';
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 1.25px; }
+
+/* Mobile first queries */
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+@media (min-width: 750px) {
+  /* ---- content layout --------*/
+  img {
+    display: block; }
+
+  .top-bar {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px;
+    overflow: auto;
+    z-index: 999; }
+    .top-bar img {
+      display: inline;
+      float: right;
+      width: 120px;
+      height: auto; }
+
+  .main-container {
+    margin: 0,auto;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/image/sky.jpg) center center no-repeat;
+    background-size: cover;
+    position: fixed;
+    overflow: auto; }
+
+  .tile {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 49, 92, 0.5);
+    overflow: hidden; }
+
+  .text, #block-1 .text-1, #block-2 .text-2, #block-3 .text-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: auto;
+    overflow: visible;
+    background: #ff22cc; }
+
+  .align-bottom {
+    margin: 0, auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+    z-index: 200;
+    background: #ff2200; }
+
+  /* -------------------------
+  
+  layout for section 1: intro
+  
+  ---------------------------- */
+  #block-1 .text-1 {
+    max-width: 653px;
+    max-height: 398px;
+    margin: -90px 0 0 -170px; }
+  #block-1 .trees-left {
+    position: relative;
+    float: left;
+    margin: 0,auto;
+    height: 100%;
+    width: 50%; }
+    #block-1 .trees-left img {
+      position: absolute;
+      bottom: 0; }
+    #block-1 .trees-left .tree-1 {
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+      height: 100%;
+      width: 28%;
+      z-index: 220; }
+    #block-1 .trees-left .tree-2 {
+      position: absolute;
+      bottom: 0;
+      left: 45%;
+      height: 100%;
+      width: 28%;
+      z-index: 210; }
+    #block-1 .trees-left .tree-3 {
+      position: absolute;
+      bottom: 0;
+      left: 70%;
+      height: 100%;
+      width: 28%;
+      z-index: 220; }
+  #block-1 .trees-right {
+    position: relative;
+    float: right;
+    margin: 0,auto;
+    height: 100%;
+    width: 40%; }
+    #block-1 .trees-right img {
+      position: absolute;
+      bottom: 0; }
+    #block-1 .trees-right .tree-4 {
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+      height: 100%;
+      width: 28%;
+      background: #ccffcc;
+      z-index: 220; }
+    #block-1 .trees-right .tree-5 {
+      position: absolute;
+      bottom: 0;
+      left: 45%;
+      height: 100%;
+      width: 33%;
+      z-index: 210; }
+
+  /* -------------------------
+  
+  layout for section 2: text block
+  
+  ---------------------------- */
+  #block-2 .text-2 {
+    max-width: 653px;
+    max-height: 398px;
+    margin: -90px 0 0 -170px; }
+
+  /* -------------------------
+  
+  layout for section 3: text block
+  
+  ---------------------------- */
+  #block-3 .text-3 {
+    max-width: 653px;
+    max-height: 398px;
+    margin: -90px 0 0 -170px; }
+
+  /* --------------------------------------
+  
+  layout for section 4: Building & GIFs
+  
+  --------------------------------------- */
+  #block-4 {
+    /*.text-3 {
+      @extend .text;
+      max-width: 653px;
+      max-height: 398px;
+      margin: -90px 0 0 -170px;
+    }*/
+    overflow: visible;
+    /* ----- GIFs ----------- */
+    /*  .gif-01 {
+        background: url(../assets/image/gifs/01.gif) center center no-repeat;
+        background-size: cover;
+      }
+    
+      .gif-02 {
+        background: url(../assets/image/gifs/02.gif) center center no-repeat;
+        background-size: cover;
+      }
+    
+      .gif-03 {
+        background: url(../assets/image/gifs/03.gif) center center no-repeat;
+        background-size: cover;
+      }
+    
+      .gif-04 {
+        background: url(../assets/image/gifs/04.gif) center center no-repeat;
+        background-size: cover;
+      }
+    
+      .gif-05 {
+        background: url(../assets/image/gifs/05.gif) center center no-repeat;
+        background-size: cover;
+      }
+    
+      .gif-06 {
+        background: url(../assets/image/gifs/06.gif) center center no-repeat;
+        background-size: cover;
+      }*/ }
+    #block-4 .container-scene {
+      position: relative;
+      margin: 0, auto;
+      width: 100%;
+      text-align: center; }
+    #block-4 .align-bottom {
+      height: 15%;
+      max-height: 220px;
+      background: none; }
+    #block-4 .trees-left {
+      position: relative;
+      float: left;
+      margin: 0,auto;
+      height: 100%;
+      width: 30%; }
+      #block-4 .trees-left img {
+        position: absolute;
+        bottom: 0; }
+      #block-4 .trees-left .tree-1 {
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+        height: 100%;
+        width: 33.33333%;
+        z-index: 220; }
+      #block-4 .trees-left .tree-2 {
+        position: absolute;
+        bottom: 0;
+        left: 45%;
+        height: 100%;
+        width: 33.33333%;
+        z-index: 210; }
+      #block-4 .trees-left .tree-3 {
+        position: absolute;
+        bottom: 0;
+        left: 70%;
+        height: 100%;
+        width: 33.33333%;
+        z-index: 220; }
+    #block-4 .trees-right {
+      position: relative;
+      float: right;
+      margin: 0,auto;
+      height: 100%;
+      width: 20%; }
+      #block-4 .trees-right img {
+        position: absolute;
+        bottom: 0; }
+      #block-4 .trees-right .tree-4 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 50%;
+        z-index: 220; }
+      #block-4 .trees-right .tree-5 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        z-index: 210; }
+    #block-4 .container-building {
+      position: relative;
+      display: inline-block;
+      margin: 0, auto;
+      margin-top: 100px;
+      width: 80%;
+      max-width: 1100px;
+      height: 100%;
+      text-align: center; }
+      #block-4 .container-building .building-basic {
+        width: 100%;
+        height: 220px;
+        background: #ff5566; }
+      #block-4 .container-building .roof-left {
+        float: left;
+        margin: 0,auto;
+        height: 100%;
+        width: 50%;
+        background: #ccff00; }
+      #block-4 .container-building .roof-middle {
+        float: left;
+        margin: 0,auto;
+        height: 100%;
+        width: 25%;
+        background: #ccf605; }
+      #block-4 .container-building .roof-right {
+        position: relative;
+        float: right;
+        margin: 0,auto;
+        height: 100%;
+        width: 25%;
+        background: #cd5f40; }
+      #block-4 .container-building .building-floors {
+        width: 100%;
+        background-color: #ccc;
+        overflow: auto;
+        text-align: center;
+        margin: 0, auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+        #block-4 .container-building .building-floors .center-me {
+          position: relative;
+          max-width: calc(100% - 20px);
+          display: inline-block;
+          background: #000; }
+    #block-4 .door {
+      float: right;
+      width: 35%;
+      height: 100%;
+      background: #ff6699; }
+    #block-4 .container-ground {
+      position: relative;
+      margin: 0, auto;
+      width: 100%;
+      height: 100%;
+      max-height: 600px;
+      background: #2c313b; }
+    #block-4 .gif-container {
+      width: 200px;
+      height: 160px;
+      float: left;
+      margin: 30px;
+      background-size: cover;
+      }
+
+  /*
+    .container-building {
+      width: 100%;
+      height: 600px;
+      background-color: #ccc;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  
+    .tree {
+      position: absolute;
+      z-index: 99;
+      left: 400px;
+      bottom:0px;
+    }
+  
+    .building-top {
+      width: 100%;
+      height: 350px;
+      background-color: #ccc;
+    }
+  
+    .building-bottom {
+      margin: 0 auto;
+      position: relative;
+      width: 100%;
+      height: 250px;
+      background: url(../assets/image/building-bottom.png) center center no-repeat;
+      background-size: cover;
+    }
+  
+    .gif-container {
+      width: 200px;
+      height: 160px;
+      float: left;
+      margin: 30px;
+      background-color: #bbb;
+    }
+  
+    .gif-01 {
+      background: url(../assets/image/gifs/01.gif) center center no-repeat;
+      background-size: cover;
+    }
+  
+    .gif-02 {
+      background: url(../assets/image/gifs/02.gif) center center no-repeat;
+      background-size: cover;
+    }
+  
+    .gif-03 {
+      background: url(../assets/image/gifs/03.gif) center center no-repeat;
+      background-size: cover;
+    }
+  
+    .gif-04 {
+      background: url(../assets/image/gifs/04.gif) center center no-repeat;
+      background-size: cover;
+    }
+  
+    .gif-05 {
+      background: url(../assets/image/gifs/05.gif) center center no-repeat;
+      background-size: cover;
+    }
+  
+    .gif-06 {
+      background: url(../assets/image/gifs/06.gif) center center no-repeat;
+      background-size: cover;
+    }
+    */ }
+/* Larger than desktop */
+/* Larger than Desktop HD */
+
+/*# sourceMappingURL=framework.css.map */
