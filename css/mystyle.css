@@ -26,8 +26,8 @@
 
 #basic-waypoint {
     background-color: lightgray;
-    overflow: scroll;
-    height: 900px;
+    overflow:auto;
+    height: 20000px;
     width: calc(100% - 20%);
     position: relative;
     max-width: 1000px;
