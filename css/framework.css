@@ -68,7 +68,7 @@ div {
 body {
   font-family: 'HelveticaNeueW01-Thin';
   font-size: 18px;
-  background-image: url(../assets/image/sky.jpg);
+  background-image: url(../assets/image/sky_new.jpg);
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -87,499 +87,498 @@ p {
 /* Larger than mobile */
 /* Larger than phablet */
 /* Larger than tablet */
-@media (min-width: 750px) {
-  /* ---- content layout --------*/
-  img {
-    display: block; }
+/* ---- content layout --------*/
+img {
+  display: block; }
 
-  .top-bar {
-    position: fixed;
-    width: 100%;
-    margin: 0 auto;
-    padding: 30px 30px;
-    overflow: auto;
-    z-index: 999; }
-    .top-bar img {
-      display: inline;
-      float: right;
-      width: 120px;
-      height: auto; }
+.top-bar {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 30px;
+  overflow: auto;
+  z-index: 999; }
+  .top-bar img {
+    display: inline;
+    float: right;
+    width: 120px;
+    height: auto; }
 
-  .main-container {
+/*  .main-container {
     margin: 0,auto;
     width: 100%;
     height: 100%;
-    background: url(../assets/image/sky.jpg) center center no-repeat;
+    //background: url(../assets/image/sky.jpg) center center no-repeat;
     background-size: cover;
     position: fixed;
-    overflow: auto; }
+    overflow: auto;
+  }*/
+.tile {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
 
-  .tile {
-    margin: 0 auto;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(12, 49, 92, 0.5);
-    overflow: hidden; }
+.text, #block-1 .text-1, #block-2 .text-2, #block-3 .text-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: auto;
+  overflow: visible; }
 
-  .text, #block-1 .text-1, #block-2 .text-2, #block-3 .text-3 {
+.align-bottom {
+  margin: 0, auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30%;
+  width: 100%;
+  z-index: 200; }
+
+.button {
+  margin: 0, auto;
+  width: 320px;
+  min-height: 58px;
+  border: 1px solid #fff;
+  font-family: 'HelveticaNeueW01-Thin';
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  background: none;
+  transition: all 0.2s ease 0s; }
+
+.button:hover {
+  border: 1px solid rgba(208, 2, 27, 0);
+  background: rgba(208, 2, 27, 0.5); }
+
+/* -------------------------
+
+layout for section 1: intro
+
+---------------------------- */
+#block-1 .text-1 {
+  max-width: 653px;
+  max-height: 398px;
+  margin: -120px 0 0 -170px; }
+#block-1 .button {
+  position: absolute;
+  bottom: 100px;
+  z-index: 600; }
+#block-1 .trees-left {
+  position: relative;
+  float: left;
+  margin: 0,auto;
+  height: 100%;
+  width: 50%; }
+  #block-1 .trees-left img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50%;
-    height: auto;
-    overflow: visible; }
-
-  .align-bottom {
-    margin: 0, auto;
+    bottom: 0; }
+  #block-1 .trees-left .tree-1 {
     position: absolute;
-    left: 0;
     bottom: 0;
-    height: 30%;
-    width: 100%;
-    z-index: 200; }
+    left: 20%;
+    height: 100%;
+    width: 28%;
+    z-index: 220; }
+  #block-1 .trees-left .tree-2 {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    height: 100%;
+    width: 28%;
+    z-index: 210; }
+  #block-1 .trees-left .tree-3 {
+    position: absolute;
+    bottom: 0;
+    left: 70%;
+    height: 100%;
+    width: 28%;
+    z-index: 220; }
+#block-1 .trees-right {
+  position: relative;
+  float: right;
+  margin: 0,auto;
+  height: 100%;
+  width: 40%; }
+  #block-1 .trees-right img {
+    position: absolute;
+    bottom: 0; }
+  #block-1 .trees-right .tree-4 {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    height: 100%;
+    width: 28%;
+    z-index: 220; }
+  #block-1 .trees-right .tree-5 {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    height: 100%;
+    width: 33%;
+    z-index: 210; }
 
-  .button {
-    margin: 0, auto;
-    width: 360px;
-    min-height: 68px;
-    border: 1px solid #fff;
-    font-family: 'HelveticaNeueW01-Thin';
-    font-size: 18px;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 20px;
-    background: none; }
-    .button :hover {
-      border: 1px solid rgba(255, 255, 255, 0.6); }
+/* -------------------------
 
-  /* -------------------------
-  
-  layout for section 1: intro
-  
-  ---------------------------- */
-  #block-1 .text-1 {
+layout for section 2: text block
+
+---------------------------- */
+#block-2 .text-2 {
+  max-width: 653px;
+  margin: -90px 0 0 -270px; }
+  #block-2 .text-2 img {
+    margin-left: -300px; }
+#block-2 .align-bottom {
+  text-align: center;
+  height: 200px; }
+
+/* -------------------------
+
+layout for section 3: text block
+
+---------------------------- */
+#block-3 .text-3 {
+  max-width: 653px;
+  margin: -90px 0 0 -370px; }
+  #block-3 .text-3 img {
+    float: right; }
+#block-3 .align-bottom {
+  text-align: center;
+  height: 200px; }
+
+/* --------------------------------------
+
+layout for section 4: Building & GIFs
+
+--------------------------------------- */
+#block-4 {
+  /*.text-3 {
+    @extend .text;
     max-width: 653px;
     max-height: 398px;
-    margin: -120px 0 0 -170px; }
-  #block-1 .button {
-    position: absolute;
-    bottom: 100px;
-    z-index: 600; }
-  #block-1 .trees-left {
+    margin: -90px 0 0 -170px;
+  }*/
+  overflow: visible;
+  /* ----- GIFs ----------- */ }
+  #block-4 .container-scene {
+    position: relative;
+    margin: 0, auto;
+    width: 100%;
+    text-align: center; }
+  #block-4 .align-bottom {
+    height: 15%;
+    max-height: 220px;
+    background: none; }
+  #block-4 .trees-left {
     position: relative;
     float: left;
     margin: 0,auto;
     height: 100%;
-    width: 50%; }
-    #block-1 .trees-left img {
+    width: 30%; }
+    #block-4 .trees-left img {
       position: absolute;
       bottom: 0; }
-    #block-1 .trees-left .tree-1 {
+    #block-4 .trees-left .tree-1 {
       position: absolute;
       bottom: 0;
       left: 20%;
       height: 100%;
-      width: 28%;
+      width: 33.33333%;
       z-index: 220; }
-    #block-1 .trees-left .tree-2 {
+    #block-4 .trees-left .tree-2 {
       position: absolute;
       bottom: 0;
       left: 45%;
       height: 100%;
-      width: 28%;
+      width: 33.33333%;
       z-index: 210; }
-    #block-1 .trees-left .tree-3 {
+    #block-4 .trees-left .tree-3 {
       position: absolute;
       bottom: 0;
       left: 70%;
       height: 100%;
-      width: 28%;
+      width: 33.33333%;
       z-index: 220; }
-  #block-1 .trees-right {
+  #block-4 .trees-right {
     position: relative;
     float: right;
     margin: 0,auto;
     height: 100%;
-    width: 40%; }
-    #block-1 .trees-right img {
+    width: 20%; }
+    #block-4 .trees-right img {
       position: absolute;
       bottom: 0; }
-    #block-1 .trees-right .tree-4 {
-      position: absolute;
-      bottom: 0;
-      left: 20%;
-      height: 100%;
-      width: 28%;
-      z-index: 220; }
-    #block-1 .trees-right .tree-5 {
-      position: absolute;
-      bottom: 0;
-      left: 45%;
-      height: 100%;
-      width: 33%;
-      z-index: 210; }
-
-  /* -------------------------
-  
-  layout for section 2: text block
-  
-  ---------------------------- */
-  #block-2 .text-2 {
-    max-width: 653px;
-    margin: -90px 0 0 -270px; }
-    #block-2 .text-2 img {
-      margin-left: -300px; }
-
-  /* -------------------------
-  
-  layout for section 3: text block
-  
-  ---------------------------- */
-  #block-3 .text-3 {
-    max-width: 653px;
-    margin: -90px 0 0 -370px; }
-    #block-3 .text-3 img {
-      float: right; }
-
-  /* --------------------------------------
-  
-  layout for section 4: Building & GIFs
-  
-  --------------------------------------- */
-  #block-4 {
-    /*.text-3 {
-      @extend .text;
-      max-width: 653px;
-      max-height: 398px;
-      margin: -90px 0 0 -170px;
-    }*/
-    overflow: visible;
-    /* ----- GIFs ----------- */ }
-    #block-4 .container-scene {
-      position: relative;
-      margin: 0, auto;
-      width: 100%;
-      text-align: center; }
-    #block-4 .align-bottom {
-      height: 15%;
-      max-height: 220px;
-      background: none; }
-    #block-4 .trees-left {
-      position: relative;
-      float: left;
-      margin: 0,auto;
-      height: 100%;
-      width: 30%; }
-      #block-4 .trees-left img {
-        position: absolute;
-        bottom: 0; }
-      #block-4 .trees-left .tree-1 {
-        position: absolute;
-        bottom: 0;
-        left: 20%;
-        height: 100%;
-        width: 33.33333%;
-        z-index: 220; }
-      #block-4 .trees-left .tree-2 {
-        position: absolute;
-        bottom: 0;
-        left: 45%;
-        height: 100%;
-        width: 33.33333%;
-        z-index: 210; }
-      #block-4 .trees-left .tree-3 {
-        position: absolute;
-        bottom: 0;
-        left: 70%;
-        height: 100%;
-        width: 33.33333%;
-        z-index: 220; }
-    #block-4 .trees-right {
-      position: relative;
-      float: right;
-      margin: 0,auto;
-      height: 100%;
-      width: 20%; }
-      #block-4 .trees-right img {
-        position: absolute;
-        bottom: 0; }
-      #block-4 .trees-right .tree-4 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 100%;
-        width: 50%;
-        z-index: 220; }
-      #block-4 .trees-right .tree-5 {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        height: 100%;
-        width: 50%;
-        z-index: 210; }
-    #block-4 .container-building {
-      position: relative;
-      display: inline-block;
-      margin: 0, auto;
-      margin-top: 100px;
-      width: 80%;
-      max-width: 1100px;
-      height: 100%;
-      text-align: center;
-      box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box; }
-      #block-4 .container-building .building-basic {
-        width: 100%;
-        height: 190px; }
-        #block-4 .container-building .building-basic img {
-          position: absolute;
-          bottom: 0; }
-      #block-4 .container-building .roof-left {
-        position: relative;
-        float: left;
-        margin: 0,auto;
-        height: 100%;
-        width: 50%;
-        overflow: hidden; }
-        #block-4 .container-building .roof-left img {
-          width: auto;
-          height: 47px; }
-      #block-4 .container-building .roof-middle {
-        position: relative;
-        float: left;
-        margin: 0,auto;
-        height: 100%;
-        width: 25%;
-        overflow-x: visible; }
-        #block-4 .container-building .roof-middle img {
-          width: 100%;
-          height: auto;
-          margin-left: -20px; }
-      #block-4 .container-building .roof-right {
-        position: relative;
-        float: right;
-        margin: 0,auto;
-        height: 100%;
-        width: 50%;
-        overflow: hidden;
-        padding-right: 10px; }
-        #block-4 .container-building .roof-right img {
-          width: auto;
-          height: 47px;
-          position: absolute;
-          right: 0; }
-      #block-4 .container-building .building-floors {
-        width: auto;
-        background-color: #ccc;
-        overflow: auto;
-        text-align: center;
-        margin: 0, auto;
-        margin-left: 12px;
-        margin-right: 16px;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box; }
-        #block-4 .container-building .building-floors .center-me {
-          position: relative;
-          max-width: calc(100% - 20px);
-          display: inline-block; }
-    #block-4 .building-bottom {
-      width: 100%;
-      height: 190px;
-      background: #ccc;
-      margin-left: 12px;
-      margin-right: 16px; }
-      #block-4 .building-bottom img {
-        position: absolute;
-        bottom: 0; }
-    #block-4 .door {
-      float: right;
-      width: 35%;
-      height: 100%;
-      background: #ff6699; }
-    #block-4 .mountains {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      height: 800px;
-      width: 100%;
-      z-index: -1;
-      background: url(../assets/image/mountains.svg) center bottom no-repeat;
-      background-size: cover; }
-    #block-4 .container-ground {
-      position: relative;
-      margin: 0, auto;
-      width: 100%;
-      height: 100%;
-      max-height: 700px;
-      background: #2c313b;
-      text-align: center; }
-    #block-4 .xmas-message {
-      width: 60%;
-      max-width: 850px;
-      display: inline-block;
-      margin: 60px 20px 20px 20px; }
-      #block-4 .xmas-message p {
-        padding: 30px 100px 0px 100px; }
-    #block-4 .gif-container {
-      width: 200px;
-      height: 160px;
-      float: left;
-      margin: 30px;
-      background-color: #bbb;
-      border: 2px solid #2c313b; }
-    #block-4 .gf {
-      width: 400px;
-      height: 160px; }
-    #block-4 .empty-window {
-      background: url(../assets/image/windowEmpty.png) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-01 {
-      background: url(../assets/image/gifs/01.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-02 {
-      background: url(../assets/image/gifs/02.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-03 {
-      background: url(../assets/image/gifs/03.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-04 {
-      background: url(../assets/image/gifs/04.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-05 {
-      background: url(../assets/image/gifs/05.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-06 {
-      background: url(../assets/image/gifs/06.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-07 {
-      background: url(../assets/image/gifs/07.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-08 {
-      background: url(../assets/image/gifs/08.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-09 {
-      background: url(../assets/image/gifs/09.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-10 {
-      background: url(../assets/image/gifs/10.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-11 {
-      background: url(../assets/image/gifs/11.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-12 {
-      background: url(../assets/image/gifs/12.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-13 {
-      background: url(../assets/image/gifs/06.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-14 {
-      background: url(../assets/image/gifs/14.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-15 {
-      background: url(../assets/image/gifs/15.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-16 {
-      background: url(../assets/image/gifs/16.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-17 {
-      background: url(../assets/image/gifs/17.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-18 {
-      background: url(../assets/image/gifs/18.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-19 {
-      background: url(../assets/image/gifs/19.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-20 {
-      background: url(../assets/image/gifs/20.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-21 {
-      background: url(../assets/image/gifs/21.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-22 {
-      background: url(../assets/image/gifs/22.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-23 {
-      background: url(../assets/image/gifs/23.gif) center center no-repeat;
-      background-size: cover; }
-    #block-4 .gif-24 {
-      background: url(../assets/image/gifs/24.gif) center center no-repeat;
-      background-size: cover; }
-
-  /*
-    .container-building {
-      width: 100%;
-      height: 600px;
-      background-color: #ccc;
+    #block-4 .trees-right .tree-4 {
       position: absolute;
       bottom: 0;
       left: 0;
-    }
-  
-    .tree {
+      height: 100%;
+      width: 50%;
+      z-index: 220; }
+    #block-4 .trees-right .tree-5 {
       position: absolute;
-      z-index: 99;
-      left: 400px;
-      bottom:0px;
-    }
-  
-    .building-top {
+      bottom: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      z-index: 210; }
+  #block-4 .container-building {
+    position: relative;
+    display: inline-block;
+    margin: 0, auto;
+    margin-top: 100px;
+    width: 80%;
+    max-width: 1100px;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+    #block-4 .container-building .building-roof {
       width: 100%;
-      height: 350px;
-      background-color: #ccc;
-    }
-  
-    .building-bottom {
-      margin: 0 auto;
+      height: 47px; }
+      #block-4 .container-building .building-roof img {
+        position: absolute;
+        bottom: 0; }
+    #block-4 .container-building .roof-left {
       position: relative;
-      width: 100%;
-      height: 250px;
-      background: url(../assets/image/building-bottom.png) center center no-repeat;
-      background-size: cover;
-    }
-  
-    .gif-container {
-      width: 200px;
-      height: 160px;
       float: left;
-      margin: 30px;
-      background-color: #bbb;
-    }
-  
-    .gif-01 {
-      background: url(../assets/image/gifs/01.gif) center center no-repeat;
-      background-size: cover;
-    }
-  
-    .gif-02 {
-      background: url(../assets/image/gifs/02.gif) center center no-repeat;
-      background-size: cover;
-    }
-  
-    .gif-03 {
-      background: url(../assets/image/gifs/03.gif) center center no-repeat;
-      background-size: cover;
-    }
-  
-    .gif-04 {
-      background: url(../assets/image/gifs/04.gif) center center no-repeat;
-      background-size: cover;
-    }
-  
-    .gif-05 {
-      background: url(../assets/image/gifs/05.gif) center center no-repeat;
-      background-size: cover;
-    }
-  
-    .gif-06 {
-      background: url(../assets/image/gifs/06.gif) center center no-repeat;
-      background-size: cover;
-    }
-    */ }
+      margin: 0,auto;
+      height: 100%;
+      width: 50%;
+      overflow: hidden; }
+      #block-4 .container-building .roof-left img {
+        width: auto;
+        height: 47px; }
+    #block-4 .container-building .building-tower {
+      width: 100%;
+      height: 180px; }
+      #block-4 .container-building .building-tower img {
+        position: absolute;
+        bottom: 0; }
+      #block-4 .container-building .building-tower .roof-tower {
+        position: relative;
+        float: right;
+        margin: 0,auto;
+        width: 50%;
+        height: 100%; }
+        #block-4 .container-building .building-tower .roof-tower img {
+          width: auto;
+          height: 100%; }
+    #block-4 .container-building .roof-right {
+      position: relative;
+      float: right;
+      margin: 0,auto;
+      height: 100%;
+      width: 50%;
+      overflow: hidden;
+      padding-right: 10px; }
+      #block-4 .container-building .roof-right img {
+        width: auto;
+        height: 47px;
+        position: absolute;
+        right: 0; }
+    #block-4 .container-building .building-floors {
+      width: auto;
+      background-color: #7a7d81;
+      overflow: auto;
+      text-align: center;
+      margin: 0, auto;
+      margin-left: 12px;
+      margin-right: 16px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box; }
+      #block-4 .container-building .building-floors .center-me {
+        position: relative;
+        max-width: calc(100% - 20px);
+        display: inline-block; }
+  #block-4 .building-bottom {
+    width: 97.5%;
+    height: 190px;
+    background: #7a7d81;
+    margin-left: 12px;
+    margin-right: 116px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+    #block-4 .building-bottom img {
+      position: absolute;
+      bottom: 0; }
+  #block-4 .door {
+    float: right;
+    width: 35%;
+    height: 100%;
+    overflow: hidden; }
+    #block-4 .door img {
+      float: left; }
+  #block-4 .mountains {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+    background: url(../assets/image/mountains.svg) center bottom no-repeat;
+    background-size: cover; }
+  #block-4 .container-ground {
+    position: relative;
+    margin: 0, auto;
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+    background: #2c313b;
+    text-align: center; }
+  #block-4 .snowman {
+    position: absolute;
+    top: -80px;
+    left: 60px;
+    z-index: 600; }
+    #block-4 .snowman img {
+      width: auto;
+      height: 240px; }
+  #block-4 .gift {
+    position: absolute;
+    top: 120px;
+    left: 140px;
+    z-index: 601; }
+    #block-4 .gift img {
+      width: auto;
+      height: 180px; }
+  #block-4 .sled {
+    position: absolute;
+    top: 160px;
+    right: 2%;
+    z-index: 188; }
+    #block-4 .sled img {
+      width: auto;
+      height: 240px; }
+  #block-4 .xmas-message {
+    width: 60%;
+    max-width: 850px;
+    display: inline-block;
+    margin: 60px 20px 20px 20px; }
+    #block-4 .xmas-message p {
+      padding: 30px 100px 0px 100px; }
+    #block-4 .xmas-message img {
+      display: inline-block;
+      width: auto;
+      height: 180px;
+      margin: 30px 0px 20px 65px; }
+  #block-4 .gif-container {
+    width: 200px;
+    height: 160px;
+    float: left;
+    margin: 30px;
+    background-color: #bbb;
+    border: 2px solid #2c313b; }
+  #block-4 .gf {
+    width: 400px;
+    height: 160px; }
+  #block-4 .empty-window {
+    background: url(../assets/image/windowEmpty.png) center center no-repeat;
+    background-size: cover; }
+
+.gif-01 {
+  background: url(../assets/image/gifs/01.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-02 {
+  background: url(../assets/image/gifs/02.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-03 {
+  background: url(../assets/image/gifs/03.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-04 {
+  background: url(../assets/image/gifs/04.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-05 {
+  background: url(../assets/image/gifs/05.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-06 {
+  background: url(../assets/image/gifs/06.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-07 {
+  background: url(../assets/image/gifs/07.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-08 {
+  background: url(../assets/image/gifs/08.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-09 {
+  background: url(../assets/image/gifs/09.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-10 {
+  background: url(../assets/image/gifs/10.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-11 {
+  background: url(../assets/image/gifs/11.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-12 {
+  background: url(../assets/image/gifs/12.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-13 {
+  background: url(../assets/image/gifs/06.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-14 {
+  background: url(../assets/image/gifs/14.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-15 {
+  background: url(../assets/image/gifs/15.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-16 {
+  background: url(../assets/image/gifs/16.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-17 {
+  background: url(../assets/image/gifs/17.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-18 {
+  background: url(../assets/image/gifs/18.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-19 {
+  background: url(../assets/image/gifs/19.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-20 {
+  background: url(../assets/image/gifs/20.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-21 {
+  background: url(../assets/image/gifs/21.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-22 {
+  background: url(../assets/image/gifs/22.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-23 {
+  background: url(../assets/image/gifs/23.gif) center center no-repeat;
+  background-size: cover; }
+
+.gif-24 {
+  background: url(../assets/image/gifs/24.gif) center center no-repeat;
+  background-size: cover; }
+
 /* Larger than desktop */
 /* Larger than Desktop HD */
 
