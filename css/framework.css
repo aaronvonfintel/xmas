@@ -20,7 +20,7 @@
   src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix");
   src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix") format("eot"), url("../assets/fonts/09f28057-e848-49b3-94bf-bfaefff51b64.woff2") format("woff2"), url("../assets/fonts/8e9ee02b-f337-4f13-ad6c-969d6d6536c8.woff") format("woff"), url("../assets/fonts/beddbbc6-203e-4f36-8960-3f5ca22af567.ttf") format("truetype"), url("../assets/fonts/af177436-d9e8-44e8-9c9c-ef2d945f20a3.svg#af177436-d9e8-44e8-9c9c-ef2d945f20a3") format("svg"); }
 @font-face {
-  font-family: "HelveticaNeueW01-65Medi";
+  font-family: "HelveticaNeueW01-65Med";
   src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
   src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"), url("../assets/fonts/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"), url("../assets/fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"), url("../assets/fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"), url("../assets/fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg"); }
 @font-face {
@@ -59,16 +59,11 @@ div {
 /* Variables ----------- */
 /*	Typography presets
 	------------------	*/
-.huge, h1 {
+.large, h1 {
   font-family: 'HelveticaNeueW01-45Ligh';
-  font-size: 85px;
-  line-height: 85px;
-  letter-spacing: -1px; }
-
-.large, h2 {
-  font-family: 'HelveticaNeueW01-45Ligh';
-  font-size: 45px;
-  line-height: 45px; }
+  font-size: 68px;
+  line-height: 72px;
+  color: #fff; }
 
 body {
   font-family: 'HelveticaNeueW01-Thin';
@@ -76,9 +71,13 @@ body {
 
 p {
   font-family: 'HelveticaNeueW01-Thin';
-  font-size: 25px;
+  font-size: 20px;
   line-height: 35px;
-  letter-spacing: 1.25px; }
+  letter-spacing: 1.25px;
+  color: #fff; }
+
+.bold {
+  font-family: 'HelveticaNeueW01-65Med'; }
 
 /* Mobile first queries */
 /* Larger than mobile */
@@ -125,8 +124,7 @@ p {
     left: 50%;
     width: 50%;
     height: auto;
-    overflow: visible;
-    background: #ff22cc; }
+    overflow: visible; }
 
   .align-bottom {
     margin: 0, auto;
@@ -135,8 +133,22 @@ p {
     bottom: 0;
     height: 30%;
     width: 100%;
-    z-index: 200;
-    background: #ff2200; }
+    z-index: 200; }
+
+  .button {
+    margin: 0, auto;
+    width: 360px;
+    min-height: 68px;
+    border: 1px solid #fff;
+    font-family: 'HelveticaNeueW01-Thin';
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background: none; }
+    .button :hover {
+      border: 1px solid rgba(255, 255, 255, 0.6); }
 
   /* -------------------------
   
@@ -146,7 +158,11 @@ p {
   #block-1 .text-1 {
     max-width: 653px;
     max-height: 398px;
-    margin: -90px 0 0 -170px; }
+    margin: -120px 0 0 -170px; }
+  #block-1 .button {
+    position: absolute;
+    bottom: 100px;
+    z-index: 600; }
   #block-1 .trees-left {
     position: relative;
     float: left;
@@ -192,7 +208,6 @@ p {
       left: 20%;
       height: 100%;
       width: 28%;
-      background: #ccffcc;
       z-index: 220; }
     #block-1 .trees-right .tree-5 {
       position: absolute;
@@ -209,8 +224,9 @@ p {
   ---------------------------- */
   #block-2 .text-2 {
     max-width: 653px;
-    max-height: 398px;
-    margin: -90px 0 0 -170px; }
+    margin: -90px 0 0 -270px; }
+    #block-2 .text-2 img {
+      margin-left: -300px; }
 
   /* -------------------------
   
@@ -219,8 +235,9 @@ p {
   ---------------------------- */
   #block-3 .text-3 {
     max-width: 653px;
-    max-height: 398px;
-    margin: -90px 0 0 -170px; }
+    margin: -90px 0 0 -370px; }
+    #block-3 .text-3 img {
+      float: right; }
 
   /* --------------------------------------
   
@@ -235,36 +252,7 @@ p {
       margin: -90px 0 0 -170px;
     }*/
     overflow: visible;
-    /* ----- GIFs ----------- */
-    /*  .gif-01 {
-        background: url(../assets/image/gifs/01.gif) center center no-repeat;
-        background-size: cover;
-      }
-    
-      .gif-02 {
-        background: url(../assets/image/gifs/02.gif) center center no-repeat;
-        background-size: cover;
-      }
-    
-      .gif-03 {
-        background: url(../assets/image/gifs/03.gif) center center no-repeat;
-        background-size: cover;
-      }
-    
-      .gif-04 {
-        background: url(../assets/image/gifs/04.gif) center center no-repeat;
-        background-size: cover;
-      }
-    
-      .gif-05 {
-        background: url(../assets/image/gifs/05.gif) center center no-repeat;
-        background-size: cover;
-      }
-    
-      .gif-06 {
-        background: url(../assets/image/gifs/06.gif) center center no-repeat;
-        background-size: cover;
-      }*/ }
+    /* ----- GIFs ----------- */ }
     #block-4 .container-scene {
       position: relative;
       margin: 0, auto;
@@ -335,63 +323,188 @@ p {
       width: 80%;
       max-width: 1100px;
       height: 100%;
-      text-align: center; }
+      text-align: center;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box; }
       #block-4 .container-building .building-basic {
         width: 100%;
-        height: 220px;
-        background: #ff5566; }
+        height: 190px; }
+        #block-4 .container-building .building-basic img {
+          position: absolute;
+          bottom: 0; }
       #block-4 .container-building .roof-left {
+        position: relative;
         float: left;
         margin: 0,auto;
         height: 100%;
         width: 50%;
-        background: #ccff00; }
+        overflow: hidden; }
+        #block-4 .container-building .roof-left img {
+          width: auto;
+          height: 47px; }
       #block-4 .container-building .roof-middle {
+        position: relative;
         float: left;
         margin: 0,auto;
         height: 100%;
         width: 25%;
-        background: #ccf605; }
+        overflow-x: visible; }
+        #block-4 .container-building .roof-middle img {
+          width: 100%;
+          height: auto;
+          margin-left: -20px; }
       #block-4 .container-building .roof-right {
         position: relative;
         float: right;
         margin: 0,auto;
         height: 100%;
-        width: 25%;
-        background: #cd5f40; }
+        width: 50%;
+        overflow: hidden;
+        padding-right: 10px; }
+        #block-4 .container-building .roof-right img {
+          width: auto;
+          height: 47px;
+          position: absolute;
+          right: 0; }
       #block-4 .container-building .building-floors {
-        width: 100%;
+        width: auto;
         background-color: #ccc;
         overflow: auto;
         text-align: center;
         margin: 0, auto;
+        margin-left: 12px;
+        margin-right: 16px;
+        box-sizing: border-box;
         -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box; }
+        -moz-box-sizing: border-box; }
         #block-4 .container-building .building-floors .center-me {
           position: relative;
           max-width: calc(100% - 20px);
-          display: inline-block;
-          background: #000; }
+          display: inline-block; }
+    #block-4 .building-bottom {
+      width: 100%;
+      height: 190px;
+      background: #ccc;
+      margin-left: 12px;
+      margin-right: 16px; }
+      #block-4 .building-bottom img {
+        position: absolute;
+        bottom: 0; }
     #block-4 .door {
       float: right;
       width: 35%;
       height: 100%;
       background: #ff6699; }
+    #block-4 .mountains {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 800px;
+      width: 100%;
+      z-index: -1;
+      background: url(../assets/image/mountains.svg) center bottom no-repeat;
+      background-size: cover; }
     #block-4 .container-ground {
       position: relative;
       margin: 0, auto;
       width: 100%;
       height: 100%;
-      max-height: 600px;
-      background: #2c313b; }
+      max-height: 700px;
+      background: #2c313b;
+      text-align: center; }
+    #block-4 .xmas-message {
+      width: 60%;
+      max-width: 850px;
+      display: inline-block;
+      margin: 60px 20px 20px 20px; }
+      #block-4 .xmas-message p {
+        padding: 30px 100px 0px 100px; }
     #block-4 .gif-container {
       width: 200px;
       height: 160px;
       float: left;
       margin: 30px;
-      background-size: cover;
-      }
+      background-color: #bbb;
+      border: 2px solid #2c313b; }
+    #block-4 .gf {
+      width: 400px;
+      height: 160px; }
+    #block-4 .empty-window {
+      background: url(../assets/image/windowEmpty.png) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-01 {
+      background: url(../assets/image/gifs/01.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-02 {
+      background: url(../assets/image/gifs/02.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-03 {
+      background: url(../assets/image/gifs/03.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-04 {
+      background: url(../assets/image/gifs/04.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-05 {
+      background: url(../assets/image/gifs/05.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-06 {
+      background: url(../assets/image/gifs/06.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-07 {
+      background: url(../assets/image/gifs/07.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-08 {
+      background: url(../assets/image/gifs/08.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-09 {
+      background: url(../assets/image/gifs/09.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-10 {
+      background: url(../assets/image/gifs/10.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-11 {
+      background: url(../assets/image/gifs/11.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-12 {
+      background: url(../assets/image/gifs/12.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-13 {
+      background: url(../assets/image/gifs/06.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-14 {
+      background: url(../assets/image/gifs/14.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-15 {
+      background: url(../assets/image/gifs/15.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-16 {
+      background: url(../assets/image/gifs/16.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-17 {
+      background: url(../assets/image/gifs/17.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-18 {
+      background: url(../assets/image/gifs/18.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-19 {
+      background: url(../assets/image/gifs/19.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-20 {
+      background: url(../assets/image/gifs/20.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-21 {
+      background: url(../assets/image/gifs/21.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-22 {
+      background: url(../assets/image/gifs/22.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-23 {
+      background: url(../assets/image/gifs/23.gif) center center no-repeat;
+      background-size: cover; }
+    #block-4 .gif-24 {
+      background: url(../assets/image/gifs/24.gif) center center no-repeat;
+      background-size: cover; }
 
   /*
     .container-building {
