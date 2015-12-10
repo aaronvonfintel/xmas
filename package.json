@@ -1,0 +1,16 @@
+{
+  "name": "studioblog",
+  "version": "1.0.0",
+  "description": "studio blog website",
+  "main": "studio_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "designaffairs",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-sass": "*"
+  }
+}
