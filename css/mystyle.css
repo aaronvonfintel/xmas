@@ -3,7 +3,6 @@
     position: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden !important;
 }
 
 .images {
@@ -11,12 +10,12 @@
 }
 
 .containerForGifs {
-    float:left;
+    float: left;
     margin: 15px 15px 15px 15px;
 }
 
 .emptyWindow {
-    float:left;
+    float: left;
     width: 200px;
     height: 160px;
     margin: 15px 15px 15px 15px;
@@ -48,4 +47,234 @@
     height: 100%;
     overflow: hidden;
     align-content: center;
+    display: block;
+}
+
+/********************************/
+/*       section 0              */
+/********************************/
+.containerForSection0 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-content: center;
+    display: block;
+    position: relative;
+    background-color: transparent;
+}
+
+#text00 {
+    position: absolute;
+  
+    margin-left:20%;
+    opacity: 0;
+    z-index: -10;
+}
+
+    #text00.active {
+        position: absolute;
+        margin-left: 5%;
+        top: 5%;
+        opacity: 1;
+        -webkit-transform: translate3d(-213px, 0px, 0px);
+        -moz-transform: translate3d(-213px, 0px, 0px);
+        -ms-transform: translate3d(-213px, 0px, 0px);
+        transform: translate3d(-213px, 0px, 0px);
+    }
+
+/********************************/
+/*       section 1              */
+/********************************/
+
+.containerForSection1 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-content: center;
+    display: block;
+    position: relative;
+    background-color: transparent;
+}
+
+#text02 {
+    position: absolute;
+    align-content: center;
+    margin-left:200%;
+    opacity: 0;
+    z-index: -10;
+}
+
+    #text02.active {
+        position: absolute;
+        margin-left: 15%;
+        top: 20%;
+        opacity: 1;
+        -webkit-transform: translate3d(-213px, 0px, 0px);
+        -moz-transform: translate3d(-213px, 0px, 0px);
+        -ms-transform: translate3d(-213px, 0px, 0px);
+        transform: translate3d(-213px, 0px, 0px);
+    }
+
+#snowflake01,
+#snowflake02,
+#snowflake03 {
+    position: absolute;
+}
+
+#snowflake01 {
+    margin-left: 5%;
+    margin-top: 1%;
+    z-index: 10;
+    -webkit-transition: all 1.7s ease-out;
+    -moz-transition: all 1.7s ease-out;
+    -o-transition: all 1.7s ease-out;
+    transition: all 1.7s ease-out;
+}
+
+    #snowflake01.active {
+        -webkit-transform: translate3d(0px, 134px, 0px);
+        -moz-transform: translate3d(0px, 134px, 0px);
+        -ms-transform: translate3d(0px, 134px, 0px);
+        transform: translate3d(0px, 134px, 0px);
+    }
+
+#snowflake02 {
+    margin-top: 20%;
+    margin-left: 10%;
+    z-index: 12;
+    -webkit-transition: all 2.7s ease-out;
+    -moz-transition: all 2.7s ease-out;
+    -o-transition: all 2.7s ease-out;
+    transition: all 2.7s ease-out;
+}
+
+#snowflake02.active {
+    -webkit-transform: translate3d(0px, 213px, 0px);
+    -moz-transform: translate3d(0px, 213px, 0px);
+    -ms-transform: translate3d(0px, 213px, 0px);
+    transform: translate3d(0px, 213px, 0px);
+}
+
+#snowflake03 {
+    z-index: 11;
+    margin-left: 70%;
+    margin-top: 10%;
+    -webkit-transition: all 1.7s ease-out;
+    -moz-transition: all 1.7s ease-out;
+    -o-transition: all 1.7s ease-out;
+    transition: all 1.7s ease-out;
+}
+
+#snowflake03.active {
+    -webkit-transform: translate3d(0px, 548px, 0px);
+    -moz-transform: translate3d(0px, 548px, 0px);
+    -ms-transform: translate3d(0px, 548px, 0px);
+    transform: translate3d(0px, 548px, 0px);
+}
+
+/********************************/
+/*       section 3              */
+/********************************/
+.containerForSection3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-content: center;
+    display: block;
+    position: relative;
+    background-color: transparent;
+}
+
+#text03 {
+    position: absolute;
+    align-content: center;
+    left: -200%;
+    opacity: 0;
+    z-index: -10;
+}
+
+#text03.active {
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    opacity: 1;
+    -webkit-transform: translate3d(-213px, 0px, 0px);
+    -moz-transform: translate3d(-213px, 0px, 0px);
+    -ms-transform: translate3d(-213px, 0px, 0px);
+    transform: translate3d(-213px, 0px, 0px);
+}
+
+#snowflake04,
+#snowflake05,
+#snowflake06 {
+    position: absolute;
+}
+
+#snowflake04 {
+    margin-left: 5%;
+    margin-top: 1%;
+    z-index: 10;
+    -webkit-transition: all 1.7s ease-out;
+    -moz-transition: all 1.7s ease-out;
+    -o-transition: all 1.7s ease-out;
+    transition: all 1.7s ease-out;
+}
+
+    #snowflake04.active {
+        -webkit-transform: translate3d(0px, 134px, 0px);
+        -moz-transform: translate3d(0px, 134px, 0px);
+        -ms-transform: translate3d(0px, 134px, 0px);
+        transform: translate3d(0px, 134px, 0px);
+    }
+
+#snowflake05 {
+    margin-top: 20%;
+    margin-left: 10%;
+    z-index: 12;
+    -webkit-transition: all 2.7s ease-out;
+    -moz-transition: all 2.7s ease-out;
+    -o-transition: all 2.7s ease-out;
+    transition: all 2.7s ease-out;
+}
+
+#snowflake05.active {
+    -webkit-transform: translate3d(0px, 213px, 0px);
+    -moz-transform: translate3d(0px, 213px, 0px);
+    -ms-transform: translate3d(0px, 213px, 0px);
+    transform: translate3d(0px, 213px, 0px);
+}
+
+#snowflake06 {
+    z-index: 11;
+    margin-left: 70%;
+    margin-top: 10%;
+    -webkit-transition: all 1.7s ease-out;
+    -moz-transition: all 1.7s ease-out;
+    -o-transition: all 1.7s ease-out;
+    transition: all 1.7s ease-out;
+}
+
+#snowflake06.active {
+    -webkit-transform: translate3d(0px, 548px, 0px);
+    -moz-transform: translate3d(0px, 548px, 0px);
+    -ms-transform: translate3d(0px, 548px, 0px);
+    transform: translate3d(0px, 548px, 0px);
+}
+
+
+#staticImg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    left: 0;
+    width: 100%;
+    min-width: 980px;
+    height: 100%;
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
 }

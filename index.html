@@ -27,8 +27,6 @@
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script type="text/javascript" src="js/myFullpage.js"></script>
 
-
-
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -41,88 +39,96 @@
 
 <body>
     <div id="fullpage">
-        <!--Gifmas-->
+        <div id="staticImg">
+            <div class="imgsContainer wow bounceinup">
+                <img src="assets/image/snowflake.png" alt="iphone" id="iphone-green" />
+            </div>
+        </div>
+
+        <!--Section 0: Gifmas-->
         <div class="section" id="section0">
-            <div class="viewportContainer wow bounceinup" data-wow-duration="2s" data-wow-delay="1s" />
-                <img src="assets/image/text_section_01.svg"/>
+            <div class="containerForSection0">
+                <img src="assets/image/text_section_01.svg" id="text00" />
+            </div>
+        </div>
+  
+
+    <!--Section 1: twas the night-->
+    <div class="section " id="section1">
+        <div class="containerForSection1">
+
+            <img src="assets/image/snowflake.png" id="snowflake01" />
+            <img src="assets/image/snowflake.png" id="snowflake02" />
+            <img src="assets/image/snowflake.png" id="snowflake03" />
+            <img src="assets/image/text_section_02.svg" id="text02" />
+        </div>
+    </div>
+
+    <!--Section 2: wait-->
+    <div class="section " id="section2">
+        <div class="containerForSection3">
+
+            <img src="assets/image/snowflake.png" id="snowflake04" />
+            <img src="assets/image/snowflake.png" id="snowflake05" />
+            <img src="assets/image/snowflake.png" id="snowflake06" />
+
+
+
+            <img src="assets/image/text_section_03.svg" id="text03" />
+
+        </div>
+    </div>
+
+    <!--Section 3: building-->
+    <div class="section">
+
+        <div id="basic-waypoint">
+            <!-- space to top -->
+            <div style="height:400px"></div>
+
+            <img class="containerForGifs" src="assets/image/jpg/01.jpg" id="gifStill_01" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="containerForGifs" src="assets/image/jpg/02.jpg" id="gifStill_02" />
+            <img class="containerForGifs" src="assets/image/jpg/04.jpg" id="gifStill_04" />
+            <img class="containerForGifs" src="assets/image/jpg/05.jpg" id="gifStill_05" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="containerForGifs" src="assets/image/jpg/06.jpg" id="gifStill_06" />
+            <img class="containerForGifs" src="assets/image/jpg/07.jpg" id="gifStill_07" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="containerForGifs" src="assets/image/jpg/08.jpg" id="gifStill_08" />
+            <img class="containerForGifs" src="assets/image/jpg/09.jpg" id="gifStill_09" />
+            <img class="containerForGifs" src="assets/image/jpg/10.jpg" id="gifStill_10" />
+            <img class="containerForGifs" src="assets/image/jpg/11.jpg" id="gifStill_11" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="containerForGifs" src="assets/image/jpg/12.jpg" id="gifStill_12" />
+            <img class="containerForGifs" src="assets/image/jpg/13.jpg" id="gifStill_13" />
+
+
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+            <img class="emptyWindow" src="assets/image/windowEmpty.png" />
+
+
+            <!-- space so that the gifs on bottom can also be shown -->
+            <div style="height:800px">
+
             </div>
         </div>
 
-        <!--twas the night-->
-        <div class="section " id="section1">
-            <div class="viewportContainer">
-                <img src="assets/image/text_section_02.svg" id="text02"/>
-                <!-- <img src="assets/image/section02_text.png" id="iphone2" />-->
-                <!--<img src="imgs/iphone3.png" alt="iphone" id="iphone3" />
-        <img src="imgs/iphone4.png" alt="iphone" id="iphone4" />-->
-            </div>
-        </div>
-
-        <!--wait-->
-        <div class="section " id="section2">
-            <div class="wrap viewportContainer">
-                <div class="imgsContainer">
-                    <img src="assets/image/snowflake.png" />
-                    <img src="assets/image/snowflake.png" />
-                    <img src="assets/image/snowflake.png" />
-                </div>
-
-                <div class="box">
-                    <img src="assets/image/text_section_03.svg" />
-                </div>
-            </div>
-        </div>
-
-        <!--building-->
-        <div class="section">
-
-            <div id="basic-waypoint">
-                <!-- space to top -->
-                <div style="height:400px"></div>
-
-                <img class="containerForGifs" src="assets/image/jpg/01.jpg" id="gifStill_01" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="containerForGifs" src="assets/image/jpg/02.jpg" id="gifStill_02" />
-                <img class="containerForGifs" src="assets/image/jpg/04.jpg" id="gifStill_04" />
-                <img class="containerForGifs" src="assets/image/jpg/05.jpg" id="gifStill_05" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="containerForGifs" src="assets/image/jpg/06.jpg" id="gifStill_06" />
-                <img class="containerForGifs" src="assets/image/jpg/07.jpg" id="gifStill_07" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="containerForGifs" src="assets/image/jpg/08.jpg" id="gifStill_08" />
-                <img class="containerForGifs" src="assets/image/jpg/09.jpg" id="gifStill_09" />
-                <img class="containerForGifs" src="assets/image/jpg/10.jpg" id="gifStill_10" />
-                <img class="containerForGifs" src="assets/image/jpg/11.jpg" id="gifStill_11" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="containerForGifs" src="assets/image/jpg/12.jpg" id="gifStill_12" />
-                <img class="containerForGifs" src="assets/image/jpg/13.jpg" id="gifStill_13" />
+        <!-- <img class="containerForGifs" src="assets/image/jpg/14.jpg" id="gifStill_14" />-->
+    </div>
 
 
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-                <img class="emptyWindow" src="assets/image/windowEmpty.png" />
-
-
-                <!-- space so that the gifs on bottom can also be shown -->
-                <div style="height:800px">
-
-                </div>
-            </div>
-
-            <!-- <img class="containerForGifs" src="assets/image/jpg/14.jpg" id="gifStill_14" />-->
-        </div>
-
-
-        <div style="background-color:lightgrey; height:800px"></div>
+    <div style="background-color:lightgrey; height:800px"></div>
     </div>
 </body>
 </html>

@@ -4,16 +4,30 @@
         'sectionsColor': ['transparent', 'transparent', 'transparent', 'transparent'],
         'navigation': true,
         'navigationPosition': 'right',
-        'navigationTooltips': ['Gifmas', '', '', 'Building'],
+        'navigationTooltips': ['Gifmas', 'twas the night', 'oh wait', 'xmas @ designaffairs'],
         'scrollOverflow': true,
+        'scrollbar':false,
         
         'afterLoad': function (anchorLink, index) {
+            if (index == 1) {
 
-            if (index == 2) {
+
+                $('#text0').addClass('active');
+
+
+            } else if (index == 2) {
                 $('#iphone3, #iphone2, #iphone4').addClass('active');
 
                 $('#text02').addClass('active');
-                //alert("index 2");
+                $('#snowflake01').addClass('active');
+                $('#snowflake02').addClass('active');
+                $('#snowflake03').addClass('active');
+              
+            } else if (index == 3) {
+                $('#text03').addClass('active');
+                $('#snowflake04').addClass('active');
+                $('#snowflake05').addClass('active');
+                $('#snowflake06').addClass('active');
             }
 
         },
@@ -21,21 +35,18 @@
         'onLeave': function (index, nextIndex, direction) {
             if (index == 3 && direction == 'down') {
                 $('.section').eq(index - 1).removeClass('moveDown').addClass('moveUp');
-                //alert("down 3");
+           
             }
             else if (index == 3 && direction == 'up') {
                 $('.section').eq(index - 1).removeClass('moveUp').addClass('moveDown');
-                //alert("up 3");
+      
             }
             else if (index == 4 && direction == 'down') {
                 $('.section').eq(index - 1).removeClass('moveDown').addClass('moveUp');
-                //alert("down 4");
+         
 
             }
-            //else if (index == 4 && direction == 'up') {
-            //    $('.section').eq(index - 1).removeClass('moveUp').addClass('moveDown');
 
-            //}
 
             $('#staticImg').toggleClass('active', (index == 2 && direction == 'down') || (index == 4 && direction == 'up'));
             $('#staticImg').toggleClass('moveDown', nextIndex == 4);
