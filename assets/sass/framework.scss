@@ -196,7 +196,7 @@ p {
 
   .text {
     position: absolute;
-    top: 50%;
+    top: 200%;
     left: 50%;
     width: 50%;
     height: auto;
@@ -213,7 +213,7 @@ p {
     z-index: 200;
   }
 
-  .button {
+  a.button {
     margin: 0, auto;
     width: 320px;
     min-height: 58px;
@@ -226,15 +226,22 @@ p {
     padding: 20px;
     background: none;
     transition: all 0.2s ease 0s;
-
+    text-decoration:none;
 
   }
 
-  .button:hover {
+
+
+  a.button:hover {
     //border: 1px solid rgba(255,255,255,0.3);
     border: 1px solid rgba(208,2,27,0.0);
     background: rgba(208,2,27,0.5);
   }
+
+.menu1 {
+    top:10%;
+    
+}
 
 /* -------------------------
 
@@ -263,6 +270,7 @@ layout for section 1: intro
       margin: 0,auto;
       height: 100%;
       width: 50%;
+      left:-200%;
 
       img {
         position: absolute;
@@ -305,6 +313,7 @@ layout for section 1: intro
       margin: 0,auto;
       height: 100%;
       width: 40%;
+      right:-200%;
 
       img {
         position: absolute;

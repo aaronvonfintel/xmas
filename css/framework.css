@@ -122,7 +122,7 @@ img {
 
 .text, #block-1 .text-1, #block-2 .text-2, #block-3 .text-3 {
   position: absolute;
-  top: 50%;
+  top: 200%;
   left: 50%;
   width: 50%;
   height: auto;
@@ -137,7 +137,7 @@ img {
   width: 100%;
   z-index: 200; }
 
-.button {
+a.button {
   margin: 0, auto;
   width: 320px;
   min-height: 58px;
@@ -149,11 +149,15 @@ img {
   text-transform: uppercase;
   padding: 20px;
   background: none;
-  transition: all 0.2s ease 0s; }
+  transition: all 0.2s ease 0s;
+  text-decoration: none; }
 
-.button:hover {
+a.button:hover {
   border: 1px solid rgba(208, 2, 27, 0);
   background: rgba(208, 2, 27, 0.5); }
+
+.menu1 {
+  top: 10%; }
 
 /* -------------------------
 
@@ -173,7 +177,8 @@ layout for section 1: intro
   float: left;
   margin: 0,auto;
   height: 100%;
-  width: 50%; }
+  width: 50%;
+  left: -200%; }
   #block-1 .trees-left img {
     position: absolute;
     bottom: 0; }
@@ -203,7 +208,8 @@ layout for section 1: intro
   float: right;
   margin: 0,auto;
   height: 100%;
-  width: 40%; }
+  width: 40%;
+  right: -200%; }
   #block-1 .trees-right img {
     position: absolute;
     bottom: 0; }
