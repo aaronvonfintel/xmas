@@ -854,123 +854,336 @@ layout for section 4: Building & GIFs
 //}
 
 // GIF's do not need to be in a media query
-.gif-01 {
+#gif-01 {
+
+}
+#gif-01.active {
     background: url(../assets/image/gifs/01.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-02 {
+#gif-02 {
+
+}
+
+#gif-02.active {
     background: url(../assets/image/gifs/02.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-03 {
+#gif-03 {
     background: url(../assets/image/gifs/03.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-04 {
+#gif-04 {
     background: url(../assets/image/gifs/04.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-05 {
+#gif-05 {
+
+}
+
+#gif-05.active {
     background: url(../assets/image/gifs/05.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-06 {
+#gif-06 {
+
+}
+
+#gif-06.active {
     background: url(../assets/image/gifs/06.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-07 {
+#gif-07 {
+    
+}
+
+#gif-07.active {
     background: url(../assets/image/gifs/07.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-08 {
+#gif-08 {
+
+}
+
+#gif-08.active {
     background: url(../assets/image/gifs/08.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-09 {
+#gif-09 {
+
+}
+
+#gif-09.active {
     background: url(../assets/image/gifs/09.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-10 {
+#gif-10 {
+
+}
+
+#gif-10.active {
     background: url(../assets/image/gifs/10.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-11 {
+#gif-11 {
+
+}
+
+#gif-11.active {
     background: url(../assets/image/gifs/11.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-12 {
+#gif-12 {
+
+}
+
+#gif-12.active {
     background: url(../assets/image/gifs/12.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-13 {
+#gif-13 {
+
+}
+
+#gif-13.active {
     background: url(../assets/image/gifs/06.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-14 {
+#gif-14 {
+
+}
+
+#gif-14.active {
     background: url(../assets/image/gifs/14.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-15 {
+#gif-15 {
+
+}
+
+#gif-15.active {
     background: url(../assets/image/gifs/15.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-16 {
+#gif-16 {
+
+}
+
+#gif-16.active {
     background: url(../assets/image/gifs/16.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-17 {
+#gif-17 {
+
+}
+
+#gif-17.active {
     background: url(../assets/image/gifs/17.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-18 {
+#gif-18 {
+
+}
+
+
+#gif-18.active {
     background: url(../assets/image/gifs/18.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-19 {
+#gif-19 {
+
+}
+
+#gif-19.active {
     background: url(../assets/image/gifs/19.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-20 {
+#gif-20 {
+
+}
+
+#gif-20.active {
     background: url(../assets/image/gifs/20.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-21 {
+#gif-21 {
+
+}
+
+#gif-21.active {
     background: url(../assets/image/gifs/21.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-22 {
+#gif-22 {
+
+}
+
+#gif-22.active {
     background: url(../assets/image/gifs/22.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-23 {
+
+#gif-23 {
+
+}
+
+#gif-23.active {
     background: url(../assets/image/gifs/23.gif) center center no-repeat;
     background-size: cover;
 }
 
-.gif-24 {
+
+
+#gif-24 {
+
+}
+
+#gif-24.active {
     background: url(../assets/image/gifs/24.gif) center center no-repeat;
+    background-size: cover;
+}
+
+/*JPgs*/
+
+.jpg-01 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-02 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-03 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-04 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-05 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-06 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-07 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-08 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-09 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-10 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-11 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-12 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-13 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-14 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-15 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-16 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-17 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-18 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-19 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-20 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-21 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-22 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-23 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.jpg-24 {
+    background: url(../assets/image/jpg/01.jpg) center center no-repeat;
     background-size: cover;
 }
 
