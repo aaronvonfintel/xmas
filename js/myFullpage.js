@@ -33,7 +33,6 @@ $(document).ready(function () {
         'css3': true,
         'sectionsColor': ['transparent', 'transparent', 'transparent', 'transparent'],
         'anchors': ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-        'menu': '#menu1',
         'navigation': true,
         'navigationPosition': 'right',
         'navigationTooltips': ['Gifmas', 'twas the night', 'oh wait', 'xmas @ designaffairs'],
@@ -41,48 +40,88 @@ $(document).ready(function () {
         
         
         'afterLoad': function (anchorLink, index) {
-            if (index == 1) {
-
+            if (index == 1) {                
                 //moving text
-                $('#section1').find('.text-1').delay(50).animate({
+                $('#section1').find('.text-1').delay(30).animate({
                     top: '50%'
                 }, 1000, 'easeOutExpo');
 
                 //moving trees
-                $('#section1').find('.trees-left').delay(500).animate({
-                    left: '0%'
-                }, 1500, 'easeOutExpo');
-                $('#section1').find('.trees-right').delay(800).animate({
-                    right: '0%'
-                }, 1500, 'easeOutExpo');
-
-
-            } else if (index == 2) {
-                //moving text
-                $('#section2').find('.text-2').delay(50).animate({
-                    top: '50%'
+                $('#section1').find('.tree-1').delay(500).animate({
+                    left: '20%'
+                }, 1400, 'easeOutExpo');
+                $('#section1').find('.tree-2').delay(400).animate({
+                    left: '45%'
+                }, 1200, 'easeOutExpo');
+                $('#section1').find('.tree-3').delay(300).animate({
+                    left: '70%'
                 }, 1000, 'easeOutExpo');
 
-                $('#iphone3, #iphone2, #iphone4').addClass('active');
+                $('#section1').find('.tree-4').delay(600).animate({
+                    right: '45%'
+                }, 1200, 'easeOutExpo');
+                $('#section1').find('.tree-5').delay(700).animate({
+                    right: '20%'
+                }, 1400, 'easeOutExpo');
 
-                $('#section2').find('.intro').delay(500).animate({
-                    left: '0%'
-                }, 1500, 'easeOutExpo');
+                // moving snowflake            
+                $('#section1').find('.snowflake-1').delay(800).animate({
+                    top: '70%'
+                }, 12000, 'easeOutExpo');
+                $('#section1').find('.snowflake-2').delay(1200).animate({
+                    top: '25%'
+                }, 8000, 'easeOutExpo');
+                $('#section1').find('.snowflake-3').delay(650).animate({
+                    top: '65%'
+                }, 9000, 'easeOutExpo');
+                $('#section1').find('.snowflake-4').delay(850).animate({
+                    top: '35%'
+                }, 9000, 'easeOutExpo');
 
-                $('#text02').addClass('active');
-                $('#snowflake01').addClass('active');
-                $('#snowflake02').addClass('active');
-                $('#snowflake03').addClass('active');
+            } else if (index == 2) {
+              
+                //moving text
+                $('#section2').find('.text-2').delay(30).animate({
+                    top: '50%'
+                }, 1000, 'easeOutExpo');
+     
+                // moving snowflake
+                $('#section2').find('.snowflake-1').delay(100).animate({
+                    top: '80%'
+                }, 9000, 'easeOutExpo');
+                $('#section2').find('.snowflake-2').delay(200).animate({
+                    top: '25%'
+                }, 9000, 'easeOutExpo');
+                $('#section2').find('.snowflake-3').delay(300).animate({
+                    top: '60%'
+                }, 9000, 'easeOutExpo');
+                $('#section2').find('.snowflake-4').delay(400).animate({
+                    top: '55%'
+                }, 9000, 'easeOutExpo');
+                
               
             } else if (index == 3) {
                 //moving text
-                $('#section3').find('.text-3').delay(50).animate({
+                $('#section3').find('.text-3').delay(30).animate({
                     top: '50%'
                 }, 1000, 'easeOutExpo');
-                $('#text03').addClass('active');
-                $('#snowflake04').addClass('active');
-                $('#snowflake05').addClass('active');
-                $('#snowflake06').addClass('active');
+
+                // moving snowflake            
+                $('#section3').find('.snowflake-1').delay(1100).animate({
+                    top: '30%'
+                }, 9000, 'easeOutExpo');
+                $('#section3').find('.snowflake-2').delay(900).animate({
+                    top: '50%'
+                }, 12000, 'easeOutExpo');
+                $('#section3').find('.snowflake-3').delay(650).animate({
+                    top: '20%'
+                }, 9000, 'easeOutExpo');
+                $('#section3').find('.snowflake-4').delay(700).animate({
+                    top: '90%'
+                }, 13000, 'easeOutExpo');
+                $('#section3').find('.snowflake-5').delay(1250).animate({
+                    top: '70%'
+                }, 9000, 'easeOutExpo');
             }
 
         },

@@ -1,72 +1,44 @@
 /* Typeface -- webfonts */
-@font-face{
-  font-family:"HelveticaNeueW01-UltLt";
-  src:url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
-  src:url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"),
-      url("../assets/fonts/9baef9a5-e2af-4838-a3bc-da9d36c0bde8.woff2") format("woff2"),
-      url("../assets/fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"),
-      url("../assets/fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"),
-      url("../assets/fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg");
+@font-face {
+    font-family: "HelveticaNeueW01-UltLt";
+    src: url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
+    src: url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"), url("../assets/fonts/9baef9a5-e2af-4838-a3bc-da9d36c0bde8.woff2") format("woff2"), url("../assets/fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"), url("../assets/fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"), url("../assets/fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg");
 }
 
-@font-face{
-  font-family:"HelveticaNeueW01-Thin";
-  src:url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
-  src:url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"),
-      url("../assets/fonts/aff68211-86bb-476d-882e-f7a3face144c.woff2") format("woff2"),
-      url("../assets/fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"),
-      url("../assets/fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"),
-      url("../assets/fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg");
+@font-face {
+    font-family: "HelveticaNeueW01-Thin";
+    src: url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
+    src: url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"), url("../assets/fonts/aff68211-86bb-476d-882e-f7a3face144c.woff2") format("woff2"), url("../assets/fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"), url("../assets/fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"), url("../assets/fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg");
 }
 
-@font-face{
-  font-family:"HelveticaNeueW01-ThinIt";
-  src:url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix");
-  src:url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix") format("eot"),
-      url("../assets/fonts/259bda14-7f43-47ac-b7ac-2baa71dbc05f.woff2") format("woff2"),
-      url("../assets/fonts/b6d63cb7-64b5-4d39-beaf-a8d9fe5eb1df.woff") format("woff"),
-      url("../assets/fonts/284ad777-0022-42a3-9197-c449457c670a.ttf") format("truetype"),
-      url("../assets/fonts/202b6353-ffff-45b1-9a1a-89497323d7ed.svg#202b6353-ffff-45b1-9a1a-89497323d7ed") format("svg");
+@font-face {
+    font-family: "HelveticaNeueW01-ThinIt";
+    src: url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix");
+    src: url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix") format("eot"), url("../assets/fonts/259bda14-7f43-47ac-b7ac-2baa71dbc05f.woff2") format("woff2"), url("../assets/fonts/b6d63cb7-64b5-4d39-beaf-a8d9fe5eb1df.woff") format("woff"), url("../assets/fonts/284ad777-0022-42a3-9197-c449457c670a.ttf") format("truetype"), url("../assets/fonts/202b6353-ffff-45b1-9a1a-89497323d7ed.svg#202b6353-ffff-45b1-9a1a-89497323d7ed") format("svg");
 }
 
-@font-face{
-  font-family:"HelveticaNeueW01-45Ligh";
-  src:url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
-  src:url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"),
-      url("../assets/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"),
-      url("../assets/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"),
-      url("../assets/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"),
-      url("../assets/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+@font-face {
+    font-family: "HelveticaNeueW01-45Ligh";
+    src: url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+    src: url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"), url("../assets/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"), url("../assets/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"), url("../assets/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"), url("../assets/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
 }
 
-@font-face{
-  font-family:"HelveticaNeueW01-46Ligh";
-  src:url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix");
-  src:url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix") format("eot"),
-      url("../assets/fonts/09f28057-e848-49b3-94bf-bfaefff51b64.woff2") format("woff2"),
-      url("../assets/fonts/8e9ee02b-f337-4f13-ad6c-969d6d6536c8.woff") format("woff"),
-      url("../assets/fonts/beddbbc6-203e-4f36-8960-3f5ca22af567.ttf") format("truetype"),
-      url("../assets/fonts/af177436-d9e8-44e8-9c9c-ef2d945f20a3.svg#af177436-d9e8-44e8-9c9c-ef2d945f20a3") format("svg");
+@font-face {
+    font-family: "HelveticaNeueW01-46Ligh";
+    src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix");
+    src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix") format("eot"), url("../assets/fonts/09f28057-e848-49b3-94bf-bfaefff51b64.woff2") format("woff2"), url("../assets/fonts/8e9ee02b-f337-4f13-ad6c-969d6d6536c8.woff") format("woff"), url("../assets/fonts/beddbbc6-203e-4f36-8960-3f5ca22af567.ttf") format("truetype"), url("../assets/fonts/af177436-d9e8-44e8-9c9c-ef2d945f20a3.svg#af177436-d9e8-44e8-9c9c-ef2d945f20a3") format("svg");
 }
 
-@font-face{
-  font-family:"HelveticaNeueW01-65Med";
-  src:url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
-  src:url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"),
-      url("../assets/fonts/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"),
-      url("../assets/fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"),
-      url("../assets/fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"),
-      url("../assets/fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg");
+@font-face {
+    font-family: "HelveticaNeueW01-65Med";
+    src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
+    src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"), url("../assets/fonts/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"), url("../assets/fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"), url("../assets/fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"), url("../assets/fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg");
 }
 
-@font-face{
-  font-family:"HelveticaNeueW01-66Medi";
-  src:url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix");
-  src:url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix") format("eot"),
-      url("../assets/fonts/9a31d352-a4be-4540-a6f2-f4ea3ea77d94.woff2") format("woff2"),
-      url("../assets/fonts/5f0efe11-b07a-49fc-ab86-7af6152fa368.woff") format("woff"),
-      url("../assets/fonts/fea58e5b-b0a7-43f7-8928-fc0639365852.ttf") format("truetype"),
-      url("../assets/fonts/398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7.svg#398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7") format("svg");
+@font-face {
+    font-family: "HelveticaNeueW01-66Medi";
+    src: url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix");
+    src: url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix") format("eot"), url("../assets/fonts/9a31d352-a4be-4540-a6f2-f4ea3ea77d94.woff2") format("woff2"), url("../assets/fonts/5f0efe11-b07a-49fc-ab86-7af6152fa368.woff") format("woff"), url("../assets/fonts/fea58e5b-b0a7-43f7-8928-fc0639365852.ttf") format("truetype"), url("../assets/fonts/398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7.svg#398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7") format("svg");
 }
 
 /*	Resets
@@ -79,27 +51,29 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figure, figcaption, hgroup,
 menu, footer, header, nav, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 html, body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 article, aside, canvas, figure, figure img, figcaption, hgroup,
 footer, header, nav, section, audio, video {
-	display: block;
+    display: block;
 }
 
-a img {border: 0;}
+a img {
+    border: 0;
+}
 
 div {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Variables ----------- */
@@ -112,53 +86,55 @@ $red: #fb2828;
 
 
 .large, h1 {
-  font-family: 'HelveticaNeueW01-45Ligh';
-	font-size: 68px;
-	line-height: 72px;
-  color: #fff;
+    font-family: 'HelveticaNeueW01-45Ligh';
+    font-size: 68px;
+    line-height: 72px;
+    color: #fff;
 }
 
 
 body {
-  font-family:'HelveticaNeueW01-Thin';
-	font-size: 18px;
-  background-image: url(../assets/image/sky_new.jpg);
-  position: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+    font-family: 'HelveticaNeueW01-Thin';
+    font-size: 18px;
+    background-image: url(../assets/image/sky_new.jpg);
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
 p {
-  font-family:'HelveticaNeueW01-Thin';
-  font-size: 20px;
-  line-height: 35px;
-  letter-spacing: 1.25px;
-  color: #fff;
+    font-family: 'HelveticaNeueW01-Thin';
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1.25px;
+    color: #fff;
 }
 
 .bold {
-  font-family:'HelveticaNeueW01-65Med';
+    font-family: 'HelveticaNeueW01-65Med';
 }
 
 /* Mobile first queries */
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+}
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+}
 
 /* Larger than tablet */
 //@media (min-width: 750px) {
 
 /* ---- content layout --------*/
 
-  img {
+img {
     display: block;
-  }
+}
 
-  .top-bar {
+.top-bar {
     position: fixed;
     width: 100%;
     margin: 0 auto;
@@ -166,14 +142,13 @@ p {
     overflow: auto;
     z-index: 999;
 
-      img {
+    img {
         display: inline;
         float: right;
         width: 120px;
         height: auto;
-      }
-
-  }
+    }
+}
 
 /*  .main-container {
     margin: 0,auto;
@@ -185,40 +160,40 @@ p {
     overflow: auto;
   }*/
 
-  .tile {
+.tile {
     margin: 0 auto;
     position: relative;
     width: 100%;
     height: 100%;
     //background-color: rgba(12,49,92,0.5);
     overflow: hidden;
-  }
+}
 
-  .text {
+.text {
     position: absolute;
     top: 200%;
     left: 50%;
     width: 50%;
     height: auto;
     overflow: visible;
-  }
+}
 
-  .align-bottom {
+.align-bottom {
     margin: 0, auto;
     position: absolute;
-    left:0;
+    left: 0;
     bottom: 0;
     height: 30%;
     width: 100%;
     z-index: 200;
-  }
+}
 
-  a.button {
+.button {
     margin: 0, auto;
     width: 320px;
     min-height: 58px;
     border: 1px solid #fff;
-    font-family:'HelveticaNeueW01-Thin';
+    font-family: 'HelveticaNeueW01-Thin';
     font-size: 16px;
     color: #fff;
     text-align: center;
@@ -226,21 +201,23 @@ p {
     padding: 20px;
     background: none;
     transition: all 0.2s ease 0s;
-    text-decoration:none;
-
-  }
-
+    text-decoration: none;
+}
 
 
-  a.button:hover {
+
+.button:hover {
     //border: 1px solid rgba(255,255,255,0.3);
     border: 1px solid rgba(208,2,27,0.0);
     background: rgba(208,2,27,0.5);
-  }
+}
+
+a {
+    text-decoration: none;
+}
 
 .menu1 {
-    top:10%;
-    
+    top: 10%;
 }
 
 /* -------------------------
@@ -252,90 +229,135 @@ layout for section 1: intro
 #block-1 {
 
     .text-1 {
-      @extend .text;
-      max-width: 653px;
-      max-height: 398px;
-      margin: -120px 0 0 -170px;
+        @extend .text;
+        max-width: 653px;
+        max-height: 398px;
+        margin: -120px 0 0 -170px;
     }
 
     .button {
-      position: absolute;
-      bottom: 100px;
-      z-index: 600;
+        position: absolute;
+        bottom: 100px;
+        z-index: 600;
     }
 
     .trees-left {
-      position: relative;
-      float: left;
-      margin: 0,auto;
-      height: 100%;
-      width: 50%;
-      left:-200%;
+        position: relative;
+        float: left;
+        margin: 0,auto;
+        height: 100%;
+        width: 50%;
+        left: 0%;
 
-      img {
-        position: absolute;
-        bottom:0;
-      }
+        img {
+            position: absolute;
+            bottom: 0;
+        }
 
         .tree-1 {
-          position: absolute;
-          bottom: 0;
-          left: 20%;
-          height: 100%;
-          width: 28%;
-          z-index: 220;
+            position: absolute;
+            bottom: 0;
+            left: -50%;
+            height: 100%;
+            width: 28%;
+            z-index: 220;
         }
 
         .tree-2 {
-          position: absolute;
-          bottom: 0;
-          left: 45%;
-          height: 100%;
-          width: 28%;
-          z-index: 210;
-
-
+            position: absolute;
+            bottom: 0;
+            left: -50%;
+            height: 80%;
+            width: 20%;
+            z-index: 210;
         }
 
         .tree-3 {
-          position: absolute;
-          bottom: 0;
-          left: 70%;
-          height: 100%;
-          width: 28%;
-          z-index: 220;
+            position: absolute;
+            bottom: 0;
+            left: -50%;
+            height: 100%;
+            width: 28%;
+            z-index: 220;
         }
     }
 
     .trees-right {
-      position: relative;
-      float: right;
-      margin: 0,auto;
-      height: 100%;
-      width: 40%;
-      right:-200%;
+        position: relative;
+        float: right;
+        margin: 0,auto;
+        height: 100%;
+        width: 40%;
 
-      img {
-        position: absolute;
-        bottom:0;
-      }
+        img {
+            position: absolute;
+            bottom: 0;
+        }
 
         .tree-4 {
-          position: absolute;
-          bottom: 0;
-          left: 20%;
-          height: 100%;
-          width: 28%;
-          z-index: 220;
+            position: absolute;
+            bottom: 0;
+            right: -120%;
+            height: 100%;
+            width: 28%;
+            z-index: 220;
         }
 
         .tree-5 {
-          position: absolute;
-          bottom: 0;
-          left: 45%;
-          height: 100%;
-          width: 33%;
-          z-index: 210;
+            position: absolute;
+            bottom: 0;
+            right: -120%;
+            height: 100%;
+            width: 33%;
+            z-index: 210;
+        }
+    }
+
+    .snowflake-1 {
+        position: absolute;
+        top: -20%;
+        left: 10%;
+        z-index: 600;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .snowflake-2 {
+        position: absolute;
+        top: -20%;
+        left: 25%;
+        z-index: 600;
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .snowflake-3 {
+        position: absolute;
+        top: -20%;
+        right: 30%;
+        z-index: 600;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    .snowflake-4 {
+        position: absolute;
+        top: -20%;
+        right: 15%;
+        z-index: 600;
+
+        img {
+            width: 48px;
+            height: 48px;
         }
     }
 }
@@ -349,22 +371,69 @@ layout for section 2: text block
 
 #block-2 {
 
-  .text-2 {
-    @extend .text;
-    max-width: 653px;
-    //max-height: 398px;
-    margin: -90px 0 0 -270px;
+    .text-2 {
+        @extend .text;
+        max-width: 653px;
+        //max-height: 398px;
+        margin: -90px 0 0 -270px;
 
-    img {
-      margin-left: -300px;
+        img {
+            margin-left: -300px;
+        }
     }
-  }
 
-  .align-bottom {
-    text-align: center;
-    height: 200px;
-  }
+    .align-bottom {
+        text-align: center;
+        height: 200px;
+    }
 
+    .snowflake-1 {
+        position: absolute;
+        top: -20%;
+        left: 30%;
+        z-index: 600;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .snowflake-2 {
+        position: absolute;
+        top: -20%;
+        right: 40%;
+        z-index: 600;
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .snowflake-3 {
+        position: absolute;
+        top: -20%;
+        right: 25%;
+        z-index: 600;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    .snowflake-4 {
+        position: absolute;
+        top: -20%;
+        left: 10%;
+        z-index: 600;
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
 }
 
 /* -------------------------
@@ -376,23 +445,82 @@ layout for section 3: text block
 
 #block-3 {
 
-  .text-3 {
-    @extend .text;
-    //right: 50%;
-    max-width: 653px;
-    margin: -90px 0 0 -370px;
+    .text-3 {
+        @extend .text;
+        //right: 50%;
+        max-width: 653px;
+        margin: -90px 0 0 -370px;
 
-    img {
-      float: right;
-      //margin-right: 140px;
+        img {
+            float: right;
+            //margin-right: 140px;
+        }
     }
 
-  }
+    .align-bottom {
+        text-align: center;
+        height: 200px;
+    }
 
-  .align-bottom {
-    text-align: center;
-    height: 200px;
-  }
+    .snowflake-1 {
+        position: absolute;
+        top: -20%;
+        left: 10%;
+        z-index: 600;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    .snowflake-2 {
+        position: absolute;
+        top: -20%;
+        left: 25%;
+        z-index: 600;
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .snowflake-3 {
+        position: absolute;
+        top: -20%;
+        left: 35%;
+        z-index: 600;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    .snowflake-4 {
+        position: absolute;
+        top: -20%;
+        right: 25%;
+        z-index: 600;
+
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .snowflake-5 {
+        position: absolute;
+        top: -20%;
+        right: 5%;
+        z-index: 600;
+
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
 
 }
 
@@ -405,338 +533,322 @@ layout for section 4: Building & GIFs
 
 
 #block-4 {
-
-  /*.text-3 {
+    /*.text-3 {
     @extend .text;
     max-width: 653px;
     max-height: 398px;
     margin: -90px 0 0 -170px;
   }*/
-
-  overflow: visible;
-
+    overflow: visible;
 
 
-  .container-scene {
-    position: relative;
-    margin: 0, auto;
-    width: 100%;
-    text-align: center;
-  }
 
-  .align-bottom {
-    height: 15%;
-    max-height: 220px;
-    background: none;
-  }
-
-  .trees-left {
-    position: relative;
-    float: left;
-    margin: 0,auto;
-    height: 100%;
-    width: 30%;
-
-      img {
-        position: absolute;
-        bottom:0;
-      }
-
-      .tree-1 {
-        position: absolute;
-        bottom: 0;
-        left: 20%;
-        height: 100%;
-        width: 33.33333%;
-        z-index: 220;
-      }
-
-      .tree-2 {
-        position: absolute;
-        bottom: 0;
-        left: 45%;
-        height: 100%;
-        width: 33.33333%;
-        z-index: 210;
-
-
-      }
-
-      .tree-3 {
-        position: absolute;
-        bottom: 0;
-        left: 70%;
-        height: 100%;
-        width: 33.33333%;
-        z-index: 220;
-      }
-
-    }
-
-
-    .trees-right {
-      position: relative;
-      float: right;
-      margin: 0,auto;
-      height: 100%;
-      width: 20%;
-
-      img {
-        position: absolute;
-        bottom:0;
-      }
-
-        .tree-4 {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          height: 100%;
-          width: 50%;
-          z-index: 220;
-        }
-
-        .tree-5 {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          height: 100%;
-          width: 50%;
-          z-index: 210;
-        }
-    }
-
-  .container-building {
-    position: relative;
-    display: inline-block;
-    margin: 0, auto;
-    margin-top: 100px;
-    width: 80%;
-    max-width: 1100px;
-    height:100%;
-    text-align: center;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-
-
-      .building-roof {
+    .container-scene {
+        position: relative;
+        margin: 0, auto;
         width: 100%;
-        height: 47px;
+        text-align: center;
+    }
 
-        img {
-          position: absolute;
-          bottom:0;
-        }
+    .align-bottom {
+        height: 15%;
+        max-height: 220px;
+        background: none;
+    }
 
-      }
-
-      .roof-left {
+    .trees-left {
         position: relative;
         float: left;
         margin: 0,auto;
         height: 100%;
-        width: 50%;
-        overflow: hidden;
-        img {
-          width: auto;
-          height: 47px;
-        }
-
-      }
-
-      .building-tower {
-        width: 100%;
-        height: 180px;
+        width: 30%;
 
         img {
-          position: absolute;
-          bottom:0;
+            position: absolute;
+            bottom: 0;
         }
 
-        .roof-tower {
-          position: relative;
-          float: right;
-          margin: 0,auto;
-          width: 50%;
-          height: 100%;
-
-          img {
-            //display: inline-block;
-            //float: right;
-            width: auto;
+        .tree-1 {
+            position: absolute;
+            bottom: 0;
+            left: 20%;
             height: 100%;
-          }
-
+            width: 33.33333%;
+            z-index: 220;
         }
 
-      }
+        .tree-2 {
+            position: absolute;
+            bottom: 0;
+            left: 45%;
+            height: 100%;
+            width: 33.33333%;
+            z-index: 210;
+        }
 
-      .roof-right {
+        .tree-3 {
+            position: absolute;
+            bottom: 0;
+            left: 70%;
+            height: 100%;
+            width: 33.33333%;
+            z-index: 220;
+        }
+    }
+
+
+    .trees-right {
         position: relative;
         float: right;
         margin: 0,auto;
         height: 100%;
-        width: 50%;
-        overflow: hidden;
-        padding-right: 10px;
+        width: 20%;
 
         img {
-          width: auto;
-          height: 47px;
-          position: absolute;
-          right: 0;
+            position: absolute;
+            bottom: 0;
         }
 
-      }
+        .tree-4 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 50%;
+            z-index: 220;
+        }
 
-      .building-floors {
-        width: auto;
-        background-color: #7a7d81;
-        overflow: auto;
-        text-align: center;
+        .tree-5 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            width: 50%;
+            z-index: 210;
+        }
+    }
+
+    .container-building {
+        position: relative;
+        display: inline-block;
         margin: 0, auto;
-        margin-left: 12px;
-        margin-right: 16px;
+        margin-top: 100px;
+        width: 80%;
+        max-width: 1100px;
+        height: 100%;
+        text-align: center;
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
 
-        .center-me {
-          position: relative;
-          max-width: calc(100% - 20px);
-          display: inline-block;
+
+        .building-roof {
+            width: 100%;
+            height: 47px;
+
+            img {
+                position: absolute;
+                bottom: 0;
+            }
         }
-      }
 
-  }
+        .roof-left {
+            position: relative;
+            float: left;
+            margin: 0,auto;
+            height: 100%;
+            width: 50%;
+            overflow: hidden;
 
-  .building-bottom {
-    width: 97.5%;
-    height: 190px;
-    background: #7a7d81;
-    margin-left: 12px;
-    margin-right: 116px;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+            img {
+                width: auto;
+                height: 47px;
+            }
+        }
 
-    img {
-      position: absolute;
-      bottom:0;
+        .building-tower {
+            width: 100%;
+            height: 180px;
+
+            img {
+                position: absolute;
+                bottom: 0;
+            }
+
+            .roof-tower {
+                position: relative;
+                float: right;
+                margin: 0,auto;
+                width: 50%;
+                height: 100%;
+
+                img {
+                    //display: inline-block;
+                    //float: right;
+                    width: auto;
+                    height: 100%;
+                }
+            }
+        }
+
+        .roof-right {
+            position: relative;
+            float: right;
+            margin: 0,auto;
+            height: 100%;
+            width: 50%;
+            overflow: hidden;
+            padding-right: 10px;
+
+            img {
+                width: auto;
+                height: 47px;
+                position: absolute;
+                right: 0;
+            }
+        }
+
+        .building-floors {
+            width: auto;
+            background-color: #7a7d81;
+            overflow: auto;
+            text-align: center;
+            margin: 0, auto;
+            margin-left: 12px;
+            margin-right: 16px;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+
+            .center-me {
+                position: relative;
+                max-width: calc(100% - 20px);
+                display: inline-block;
+            }
+        }
     }
 
-  }
+    .building-bottom {
+        width: 97.5%;
+        height: 190px;
+        background: #7a7d81;
+        margin-left: 12px;
+        margin-right: 116px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
 
-
-  .door {
-    float: right;
-    width: 35%;
-    height: 100%;
-    overflow: hidden;
-
-    img {
-      float: left;
-    }
-  }
-
-  .mountains {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 800px;
-    width: 100%;
-    z-index: -1;
-    background: url(../assets/image/mountains.svg) center bottom no-repeat;
-    background-size: cover;
-  }
-
-  .container-ground {
-    position: relative;
-    margin: 0, auto;
-    width: 100%;
-    height:100%;
-    max-height: 700px;
-    background: #2c313b;
-    text-align: center;
-  }
-
-  .snowman {
-    position: absolute;
-    top: -80px;
-    left: 60px;
-    z-index: 600;
-
-    img {
-      width: auto;
-      height: 240px;
+        img {
+            position: absolute;
+            bottom: 0;
+        }
     }
 
-  }
 
-  .gift {
-    position: absolute;
-    top: 120px;
-    left: 140px;
-    z-index: 601;
+    .door {
+        float: right;
+        width: 35%;
+        height: 100%;
+        overflow: hidden;
 
-    img {
-      width: auto;
-      height: 180px;
-    }
-  }
-
-  .sled {
-    position: absolute;
-    top: 160px;
-    right: 2%;
-    z-index: 188;
-
-    img {
-      width: auto;
-      height: 240px;
+        img {
+            float: left;
+        }
     }
 
-  }
-
-  .xmas-message {
-    width: 60%;
-    max-width: 850px;
-    display: inline-block;
-    margin: 60px 20px 20px 20px;
-
-    p {
-      padding: 30px 100px 0px 100px;
+    .mountains {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 800px;
+        width: 100%;
+        z-index: -1;
+        background: url(../assets/image/mountains.svg) center bottom no-repeat;
+        background-size: cover;
     }
 
-    img {
-      display: inline-block;
-      width: auto;
-      height: 180px;
-      margin: 30px 0px 20px 65px;
+    .container-ground {
+        position: relative;
+        margin: 0, auto;
+        width: 100%;
+        height: 100%;
+        max-height: 700px;
+        background: #2c313b;
+        text-align: center;
     }
-  }
 
-  /* ----- GIFs ----------- */
+    .snowman {
+        position: absolute;
+        top: -80px;
+        left: 60px;
+        z-index: 600;
 
-  .gif-container {
-    width: 200px;
-    height: 160px;
-    float: left;
-    margin: 30px;
-    background-color: #bbb;
-    border: 2px solid #2c313b;
-  }
+        img {
+            width: auto;
+            height: 240px;
+        }
+    }
 
-  .gf {
-    width: 400px;
-    height: 160px;
-  }
+    .gift {
+        position: absolute;
+        top: 120px;
+        left: 140px;
+        z-index: 601;
 
-  .empty-window {
-    background: url(../assets/image/windowEmpty.png) center center no-repeat;
-    background-size: cover;
-  }
+        img {
+            width: auto;
+            height: 180px;
+        }
+    }
 
+    .sled {
+        position: absolute;
+        top: 160px;
+        right: 2%;
+        z-index: 188;
+
+        img {
+            width: auto;
+            height: 240px;
+        }
+    }
+
+    .xmas-message {
+        width: 60%;
+        max-width: 850px;
+        display: inline-block;
+        margin: 60px 20px 20px 20px;
+
+        p {
+            padding: 30px 100px 0px 100px;
+        }
+
+        img {
+            display: inline-block;
+            width: auto;
+            height: 180px;
+            margin: 30px 0px 20px 65px;
+        }
+    }
+    /* ----- GIFs ----------- */
+    .gif-container {
+        width: 200px;
+        height: 160px;
+        float: left;
+        margin: 30px;
+        background-color: #bbb;
+        border: 2px solid #2c313b;
+    }
+
+    .gf {
+        width: 400px;
+        height: 160px;
+    }
+
+    .empty-window {
+        background: url(../assets/image/windowEmpty.png) center center no-repeat;
+        background-size: cover;
+    }
 }
 
 //}
@@ -745,126 +857,128 @@ layout for section 4: Building & GIFs
 .gif-01 {
     background: url(../assets/image/gifs/01.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-02 {
+.gif-02 {
     background: url(../assets/image/gifs/02.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-03 {
+.gif-03 {
     background: url(../assets/image/gifs/03.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-04 {
+.gif-04 {
     background: url(../assets/image/gifs/04.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-05 {
+.gif-05 {
     background: url(../assets/image/gifs/05.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-06 {
+.gif-06 {
     background: url(../assets/image/gifs/06.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-07 {
+.gif-07 {
     background: url(../assets/image/gifs/07.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-08 {
+.gif-08 {
     background: url(../assets/image/gifs/08.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-09 {
+.gif-09 {
     background: url(../assets/image/gifs/09.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-10 {
+.gif-10 {
     background: url(../assets/image/gifs/10.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-11 {
+.gif-11 {
     background: url(../assets/image/gifs/11.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-12 {
+.gif-12 {
     background: url(../assets/image/gifs/12.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-13 {
+.gif-13 {
     background: url(../assets/image/gifs/06.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-14 {
+.gif-14 {
     background: url(../assets/image/gifs/14.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-15 {
+.gif-15 {
     background: url(../assets/image/gifs/15.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-16 {
+.gif-16 {
     background: url(../assets/image/gifs/16.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-17 {
+.gif-17 {
     background: url(../assets/image/gifs/17.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-18 {
+.gif-18 {
     background: url(../assets/image/gifs/18.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-19 {
+.gif-19 {
     background: url(../assets/image/gifs/19.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-20 {
+.gif-20 {
     background: url(../assets/image/gifs/20.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-21 {
+.gif-21 {
     background: url(../assets/image/gifs/21.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-22 {
+.gif-22 {
     background: url(../assets/image/gifs/22.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-23 {
+.gif-23 {
     background: url(../assets/image/gifs/23.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
-  .gif-24 {
+.gif-24 {
     background: url(../assets/image/gifs/24.gif) center center no-repeat;
     background-size: cover;
-  }
+}
 
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
