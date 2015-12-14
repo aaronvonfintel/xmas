@@ -1,32 +1,16 @@
 /* Typeface -- webfonts */
 @font-face {
-  font-family: "HelveticaNeueW01-UltLt";
-  src: url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
-  src: url("../assets/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"), url("../assets/fonts/9baef9a5-e2af-4838-a3bc-da9d36c0bde8.woff2") format("woff2"), url("../assets/fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"), url("../assets/fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"), url("../assets/fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg"); }
-@font-face {
   font-family: "HelveticaNeueW01-Thin";
   src: url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
   src: url("../assets/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"), url("../assets/fonts/aff68211-86bb-476d-882e-f7a3face144c.woff2") format("woff2"), url("../assets/fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"), url("../assets/fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"), url("../assets/fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg"); }
-@font-face {
-  font-family: "HelveticaNeueW01-ThinIt";
-  src: url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix");
-  src: url("../assets/fonts/1cc063b6-7e7b-4880-9905-0d3d4f9c7c7d.eot?#iefix") format("eot"), url("../assets/fonts/259bda14-7f43-47ac-b7ac-2baa71dbc05f.woff2") format("woff2"), url("../assets/fonts/b6d63cb7-64b5-4d39-beaf-a8d9fe5eb1df.woff") format("woff"), url("../assets/fonts/284ad777-0022-42a3-9197-c449457c670a.ttf") format("truetype"), url("../assets/fonts/202b6353-ffff-45b1-9a1a-89497323d7ed.svg#202b6353-ffff-45b1-9a1a-89497323d7ed") format("svg"); }
 @font-face {
   font-family: "HelveticaNeueW01-45Ligh";
   src: url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
   src: url("../assets/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"), url("../assets/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"), url("../assets/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"), url("../assets/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"), url("../assets/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg"); }
 @font-face {
-  font-family: "HelveticaNeueW01-46Ligh";
-  src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix");
-  src: url("../assets/fonts/a4f9f319-dec9-4afc-8b50-e18cc1b61cb4.eot?#iefix") format("eot"), url("../assets/fonts/09f28057-e848-49b3-94bf-bfaefff51b64.woff2") format("woff2"), url("../assets/fonts/8e9ee02b-f337-4f13-ad6c-969d6d6536c8.woff") format("woff"), url("../assets/fonts/beddbbc6-203e-4f36-8960-3f5ca22af567.ttf") format("truetype"), url("../assets/fonts/af177436-d9e8-44e8-9c9c-ef2d945f20a3.svg#af177436-d9e8-44e8-9c9c-ef2d945f20a3") format("svg"); }
-@font-face {
   font-family: "HelveticaNeueW01-65Med";
   src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
   src: url("../assets/fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"), url("../assets/fonts/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2") format("woff2"), url("../assets/fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"), url("../assets/fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"), url("../assets/fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg"); }
-@font-face {
-  font-family: "HelveticaNeueW01-66Medi";
-  src: url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix");
-  src: url("../assets/fonts/71c74bc5-e7c8-48ad-9b03-43f3e6760e4e.eot?#iefix") format("eot"), url("../assets/fonts/9a31d352-a4be-4540-a6f2-f4ea3ea77d94.woff2") format("woff2"), url("../assets/fonts/5f0efe11-b07a-49fc-ab86-7af6152fa368.woff") format("woff"), url("../assets/fonts/fea58e5b-b0a7-43f7-8928-fc0639365852.ttf") format("truetype"), url("../assets/fonts/398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7.svg#398e1bb8-f2eb-41d5-b3b6-b9a889b52ee7") format("svg"); }
 /*	Resets
 	------	*/
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
@@ -56,8 +40,7 @@ div {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* Variables ----------- */
-/*	Typography presets
+/*	Typography styles
 	------------------	*/
 .large, h1 {
   font-family: 'HelveticaNeueW01-45Ligh';
@@ -84,9 +67,6 @@ p {
   font-family: 'HelveticaNeueW01-65Med'; }
 
 /* Mobile first queries */
-/* Larger than mobile */
-/* Larger than phablet */
-/* Larger than tablet */
 /* ---- content layout --------*/
 img {
   display: block; }
@@ -118,13 +98,13 @@ img {
   position: relative;
   width: 100%;
   height: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
 
 .text, #block-1 .text-1, #block-2 .text-2, #block-3 .text-3 {
   position: absolute;
+  display: inline-block;
   top: 200%;
-  left: 50%;
-  width: 50%;
   height: auto;
   overflow: visible; }
 
@@ -141,7 +121,7 @@ img {
   margin: 0, auto;
   width: 320px;
   min-height: 58px;
-  border: 1px solid #fff;
+  border: 1px solid white;
   font-family: 'HelveticaNeueW01-Thin';
   font-size: 16px;
   color: #fff;
@@ -150,117 +130,130 @@ img {
   padding: 20px;
   background: none;
   transition: all 0.2s ease 0s;
-  text-decoration: none; }
+  display: inline-block; }
 
 .button:hover {
-  border: 1px solid rgba(208, 2, 27, 0);
-  background: rgba(208, 2, 27, 0.5); }
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: rgba(4, 36, 66, 0.8); }
 
 a {
   text-decoration: none; }
 
-.menu1 {
-  top: 10%; }
-
+/*.menu1 {
+    top: 10%;
+}*/
 /* -------------------------
 
 layout for section 1: intro
 
 ---------------------------- */
-#block-1 .text-1 {
-  max-width: 653px;
-  max-height: 398px;
-  margin: -120px 0 0 -170px; }
-#block-1 .button {
-  position: absolute;
-  bottom: 100px;
-  z-index: 600; }
-#block-1 .trees-left {
-  position: relative;
-  float: left;
-  margin: 0,auto;
-  height: 100%;
-  width: 50%;
-  left: 0%; }
-  #block-1 .trees-left img {
+#block-1 {
+  /*  .button {
+        position: absolute;
+        bottom: 100px;
+        z-index: 600;
+    }*/ }
+  #block-1 .text-1 {
+    left: 50%;
+    width: 50%;
+    max-width: 653px;
+    max-height: 398px;
+    margin: -120px 0 0 -170px; }
+  #block-1 .button-bottom {
+    margin: 0, auto;
     position: absolute;
-    bottom: 0; }
-  #block-1 .trees-left .tree-1 {
-    position: absolute;
+    left: 0;
     bottom: 0;
-    left: -50%;
+    height: 200px;
+    width: 100%;
+    z-index: 300;
+    text-align: center; }
+  #block-1 .trees-left {
+    position: relative;
+    float: left;
+    margin: 0,auto;
     height: 100%;
-    width: 28%;
-    z-index: 220; }
-  #block-1 .trees-left .tree-2 {
-    position: absolute;
-    bottom: 0;
-    left: -50%;
-    height: 80%;
-    width: 20%;
-    z-index: 210; }
-  #block-1 .trees-left .tree-3 {
-    position: absolute;
-    bottom: 0;
-    left: -50%;
+    width: 50%;
+    left: 0%; }
+    #block-1 .trees-left img {
+      position: absolute;
+      bottom: 0; }
+    #block-1 .trees-left .tree-1 {
+      position: absolute;
+      bottom: 0;
+      left: -50%;
+      height: 100%;
+      width: 28%;
+      z-index: 220; }
+    #block-1 .trees-left .tree-2 {
+      position: absolute;
+      bottom: 0;
+      left: -50%;
+      height: 80%;
+      width: 20%;
+      z-index: 210; }
+    #block-1 .trees-left .tree-3 {
+      position: absolute;
+      bottom: 0;
+      left: -50%;
+      height: 100%;
+      width: 28%;
+      z-index: 220; }
+  #block-1 .trees-right {
+    position: relative;
+    float: right;
+    margin: 0,auto;
     height: 100%;
-    width: 28%;
-    z-index: 220; }
-#block-1 .trees-right {
-  position: relative;
-  float: right;
-  margin: 0,auto;
-  height: 100%;
-  width: 40%; }
-  #block-1 .trees-right img {
+    width: 40%; }
+    #block-1 .trees-right img {
+      position: absolute;
+      bottom: 0; }
+    #block-1 .trees-right .tree-4 {
+      position: absolute;
+      bottom: 0;
+      right: -120%;
+      height: 100%;
+      width: 28%;
+      z-index: 220; }
+    #block-1 .trees-right .tree-5 {
+      position: absolute;
+      bottom: 0;
+      right: -120%;
+      height: 100%;
+      width: 33%;
+      z-index: 210; }
+  #block-1 .snowflake-1 {
     position: absolute;
-    bottom: 0; }
-  #block-1 .trees-right .tree-4 {
+    top: -20%;
+    left: 10%;
+    z-index: 600; }
+    #block-1 .snowflake-1 img {
+      width: 24px;
+      height: 24px; }
+  #block-1 .snowflake-2 {
     position: absolute;
-    bottom: 0;
-    right: -120%;
-    height: 100%;
-    width: 28%;
-    z-index: 220; }
-  #block-1 .trees-right .tree-5 {
+    top: -20%;
+    left: 25%;
+    z-index: 600; }
+    #block-1 .snowflake-2 img {
+      width: 48px;
+      height: 48px; }
+  #block-1 .snowflake-3 {
     position: absolute;
-    bottom: 0;
-    right: -120%;
-    height: 100%;
-    width: 33%;
-    z-index: 210; }
-#block-1 .snowflake-1 {
-  position: absolute;
-  top: -20%;
-  left: 10%;
-  z-index: 600; }
-  #block-1 .snowflake-1 img {
-    width: 24px;
-    height: 24px; }
-#block-1 .snowflake-2 {
-  position: absolute;
-  top: -20%;
-  left: 25%;
-  z-index: 600; }
-  #block-1 .snowflake-2 img {
-    width: 48px;
-    height: 48px; }
-#block-1 .snowflake-3 {
-  position: absolute;
-  top: -20%;
-  right: 30%;
-  z-index: 600; }
-  #block-1 .snowflake-3 img {
-    width: 32px;
-    height: 32px; }
-#block-1 .snowflake-4 {
-  position: absolute;
-  top: -20%;
-  right: 15%;
-  z-index: 600; }
-  #block-1 .snowflake-4 img {
-    width: 48px;
-    height: 48px; }
+    top: -20%;
+    right: 30%;
+    z-index: 600; }
+    #block-1 .snowflake-3 img {
+      width: 32px;
+      height: 32px; }
+  #block-1 .snowflake-4 {
+    position: absolute;
+    top: -20%;
+    right: 15%;
+    z-index: 600; }
+    #block-1 .snowflake-4 img {
+      width: 48px;
+      height: 48px; }
 
 /* -------------------------
 
@@ -268,6 +261,8 @@ layout for section 2: text block
 
 ---------------------------- */
 #block-2 .text-2 {
+  left: 50%;
+  width: 50%;
   max-width: 653px;
   margin: -90px 0 0 -270px; }
   #block-2 .text-2 img {
@@ -314,8 +309,9 @@ layout for section 3: text block
 
 ---------------------------- */
 #block-3 .text-3 {
-  max-width: 653px;
-  margin: -90px 0 0 -370px; }
+  left: 50%;
+  width: 300px;
+  margin: 0 0 0 -140px; }
   #block-3 .text-3 img {
     float: right; }
 #block-3 .align-bottom {
@@ -595,6 +591,9 @@ layout for section 4: Building & GIFs
     background: url(../assets/image/windowEmpty.png) center center no-repeat;
     background-size: cover; }
 
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
 #gif-01.active {
   background: url(../assets/image/gifs/01.gif) center center no-repeat;
   background-size: cover; }
