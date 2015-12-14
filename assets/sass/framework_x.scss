@@ -89,10 +89,37 @@ p {
     font-family: 'HelveticaNeueW01-65Med';
 }
 
+
+.button {
+    margin: 0, auto;
+    width: calc(100% - 40px);
+    max-width: 320px;
+    min-height: 58px;
+    border: 1px solid #fff;
+    font-family: 'HelveticaNeueW01-Thin';
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background: none;
+    transition: all 0.2s ease 0s;
+    display: inline-block;
+}
+
+.button:hover {
+    //border: 1px solid rgba(255,255,255,0.3);
+    border: 1px solid rgba(208,2,27,0.0);
+    background: rgba(208,2,27,0.5);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----- Content layout ------- */
+
 /* Mobile first queries */
-
-
-/* ---- content layout --------*/
 
 img {
     display: block;
@@ -114,16 +141,6 @@ img {
     }
 }
 
-/*  .main-container {
-    margin: 0,auto;
-    width: 100%;
-    height: 100%;
-    //background: url(../assets/image/sky.jpg) center center no-repeat;
-    background-size: cover;
-    position: fixed;
-    overflow: auto;
-  }*/
-
 .tile {
     margin: 0 auto;
     position: relative;
@@ -138,76 +155,107 @@ img {
     position: absolute;
     display: inline-block;
     top: 200%;
-    //left: 50%;
-    //width: 50%;
     height: auto;
     overflow: visible;
-    //background: #ff2200;
+    background: #ff2200;
 }
 
 .align-bottom {
     margin: 0, auto;
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: 0;
+    bottom: 0;
     height: 30%;
     width: 100%;
     z-index: 200;
-    //background: #ff0000;
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-     /* IE10+ specific styles go here */
-         height: 280px;
-    }
 }
 
-.button {
-    margin: 0, auto;
-    width: 320px;
-    min-height: 58px;
-    border: 1px solid rgba(255,255,255,1.0);
-    font-family: 'HelveticaNeueW01-Thin';
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 20px;
-    background: none;
-    transition: all 0.2s ease 0s;
-    display: inline-block;
-    opacity:0;
+#block-1 {
+
+  .text-1 {
+      //@extend .text;
+      left: 50%;
+      width: 50%;
+      max-width: 653px;
+      //max-height: 398px;
+      //margin: -120px 0 0 -170px;
+  }
+
+  .button-bottom {
+      margin: 0, auto;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 200px;
+      width: 100%;
+      z-index: 300;
+  }
+
 }
 
-
-
-.button:hover {
-    border: 1px solid rgba(255,255,255,0);
-    //border: 1px solid rgba(4,36,66,1.0);
-    background: rgba(4,36,66,0.8);
+#block-2 {
 }
 
-a {
-    text-decoration: none;
+#block-3 {
 }
 
-/*.menu1 {
-    top: 10%;
-}*/
+#block-4 {
+}
+
+/* Larger than mobile */
+//@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+  #block-1 {
+
+  }
+
+  #block-2 {
+  }
+
+  #block-3 {
+  }
+
+  #block-4 {
+  }
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+  #block-1 {
+
+  }
+
+  #block-2 {
+  }
+
+  #block-3 {
+  }
+
+  #block-4 {
+  }
+
+}
 
 /* -------------------------
 
 layout for section 1: intro
 
 ---------------------------- */
-
+/*
 #block-1 {
 
     .text-1 {
-        @extend .text;
+        //@extend .text;
         left: 50%;
         width: 50%;
         max-width: 653px;
-        max-height: 398px;
-        margin: -120px 0 0 -170px;
+        //max-height: 398px;
+        //margin: -120px 0 0 -170px;
     }
 
     .button-bottom {
@@ -218,19 +266,7 @@ layout for section 1: intro
         height: 200px;
         width: 100%;
         z-index: 300;
-        text-align: center;
-        //background: #ff2200;
     }
-
-
-
-  /*  .button {
-        position: absolute;
-        bottom: 100px;
-        z-index: 600;
-    }*/
-
-
 
     .trees-left {
         position: relative;
@@ -238,52 +274,34 @@ layout for section 1: intro
         margin: 0,auto;
         height: 100%;
         width: 50%;
-        left: 0px;
-        //background: #ff2200;
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-         /* IE10+ specific styles go here */
-             height: 280px;
-        }
+        left: 0%;
 
         img {
             position: absolute;
-            bottom: 0px;
-
-            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-             /* IE10+ specific styles go here */
-                height: 100%;
-            }
+            bottom: 0;
         }
 
         .tree-1 {
             position: absolute;
-            bottom: 0px;
+            bottom: 0;
             left: -50%;
             height: 100%;
-            //height: 3
             width: 28%;
             z-index: 220;
-
         }
 
         .tree-2 {
             position: absolute;
-            bottom: 0px;
+            bottom: 0;
             left: -50%;
             height: 80%;
             width: 20%;
             z-index: 210;
-
-            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-             /* IE10+ specific styles go here */
-                 height: 200px;
-            }
         }
 
         .tree-3 {
             position: absolute;
-            bottom: 0px;
+            bottom: 0;
             left: -50%;
             height: 100%;
             width: 28%;
@@ -298,20 +316,9 @@ layout for section 1: intro
         height: 100%;
         width: 40%;
 
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-         /* IE10+ specific styles go here */
-             height: 280px;
-        }
-
         img {
             position: absolute;
             bottom: 0;
-
-            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-             /* IE10+ specific styles go here */
-                height: 100%;
-            }
-
         }
 
         .tree-4 {
@@ -321,11 +328,6 @@ layout for section 1: intro
             height: 100%;
             width: 28%;
             z-index: 220;
-
-            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-             /* IE10+ specific styles go here */
-                 height: 180px;
-            }
         }
 
         .tree-5 {
@@ -386,14 +388,14 @@ layout for section 1: intro
         }
     }
 }
-
+*/
 /* -------------------------
 
 layout for section 2: text block
 
 ---------------------------- */
 
-
+/*
 #block-2 {
 
     .text-2 {
@@ -461,28 +463,28 @@ layout for section 2: text block
         }
     }
 }
-
+*/
 /* -------------------------
 
 layout for section 3: text block
 
 ---------------------------- */
 
-
+/*
 #block-3 {
 
     .text-3 {
         @extend .text;
-        left: 50%;
-        //width: 60.5%;
-        width: 300px;
+        //left: 50%;
+        width: 60.5%;
+        //width: 300px;
         //display: inline-block;
         //padding-right: 2%;
-        //margin-right: -175px;;
+        //margin-right: 2%;
         //right: 50%;
         //right: calc(50% - 10%);
         //max-width: 653px;
-        margin: 0 0 0 -140px;
+        //margin: -90px 0 0 -370px;
         //background: #ff2200;
 
         img {
@@ -558,29 +560,18 @@ layout for section 3: text block
 
 }
 
-
+*/
 /* --------------------------------------
 
 layout for section 4: Building & GIFs
 
 --------------------------------------- */
-
+/*
 
 #block-4 {
-    /*.text-3 {
-    @extend .text;
-    max-width: 653px;
-    max-height: 398px;
-    margin: -90px 0 0 -170px;
-  }*/
+
     overflow: visible;
 
-    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-     /* IE10+ specific styles go here */
-        .mountains{
-          display: none;
-        }
-    }
 
 
     .container-scene {
@@ -588,27 +579,12 @@ layout for section 4: Building & GIFs
         margin: 0, auto;
         width: 100%;
         text-align: center;
-        height: auto;
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        //background: #ff2200;
-      //  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-         /* IE10+ specific styles go here */
-            // padding-top: 25px;
-        //}
     }
 
     .align-bottom {
         height: 15%;
         max-height: 220px;
         background: none;
-
-        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-         /* IE10+ specific styles go here */
-             height: 220px;
-        }
-
     }
 
     .trees-left {
@@ -621,11 +597,6 @@ layout for section 4: Building & GIFs
         img {
             position: absolute;
             bottom: 0;
-
-            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-             /* IE10+ specific styles go here */
-                 height: 100%;
-            }
         }
 
         .tree-1 {
@@ -667,12 +638,6 @@ layout for section 4: Building & GIFs
         img {
             position: absolute;
             bottom: 0;
-
-            @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-             /* IE10+ specific styles go here */
-                 height: 100%;
-            }
-
         }
 
         .tree-4 {
@@ -696,8 +661,7 @@ layout for section 4: Building & GIFs
 
     .container-building {
         position: relative;
-        //display: inline-block;
-        display: inline-table;
+        display: inline-block;
         margin: 0, auto;
         margin-top: 100px;
         width: 80%;
@@ -707,12 +671,11 @@ layout for section 4: Building & GIFs
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
-        //background: #000;
-        padding: 0px;
+
 
         .building-roof {
             width: 100%;
-            height: 40px;
+            height: 47px;
 
             img {
                 position: absolute;
@@ -727,11 +690,10 @@ layout for section 4: Building & GIFs
             height: 100%;
             width: 50%;
             overflow: hidden;
-          //background: #ff8833;
 
             img {
                 width: auto;
-                height: 40px;
+                height: 47px;
             }
         }
 
@@ -768,11 +730,10 @@ layout for section 4: Building & GIFs
             width: 50%;
             overflow: hidden;
             padding-right: 10px;
-            //background: #ff2200;
 
             img {
                 width: auto;
-                height: 40px;
+                height: 47px;
                 position: absolute;
                 right: 0;
             }
@@ -804,7 +765,6 @@ layout for section 4: Building & GIFs
         background: #7a7d81;
         margin-left: 12px;
         margin-right: 116px;
-        margin-bottom: 0;
         box-sizing: border-box;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -831,31 +791,26 @@ layout for section 4: Building & GIFs
         position: absolute;
         bottom: 0;
         right: 0;
-        height: 600px;
+        height: 800px;
         width: 100%;
         z-index: -1;
         background: url(../assets/image/mountains.svg) center bottom no-repeat;
         background-size: cover;
-        //background-color: #ff2200;
-
-
     }
 
     .container-ground {
         position: relative;
         margin: 0, auto;
         width: 100%;
-        height: auto;
-        //max-height: 700px;
+        height: 100%;
+        max-height: 700px;
         background: #2c313b;
         text-align: center;
-        padding-top: 20px;
-        overflow: auto;
     }
 
     .snowman {
         position: absolute;
-        top: 280px;
+        top: -80px;
         left: 60px;
         z-index: 600;
 
@@ -870,8 +825,6 @@ layout for section 4: Building & GIFs
         top: 120px;
         left: 140px;
         z-index: 601;
-        height: 180px;
-        overflow: hidden;
 
         img {
             width: auto;
@@ -882,7 +835,7 @@ layout for section 4: Building & GIFs
     .sled {
         position: absolute;
         top: 160px;
-        right: -20px;
+        right: 2%;
         z-index: 188;
 
         img {
@@ -892,12 +845,10 @@ layout for section 4: Building & GIFs
     }
 
     .xmas-message {
-      position: relative;
         width: 60%;
         max-width: 850px;
         display: inline-block;
         margin: 60px 20px 20px 20px;
-
 
         p {
             padding: 30px 100px 0px 100px;
@@ -907,10 +858,11 @@ layout for section 4: Building & GIFs
             display: inline-block;
             width: auto;
             height: 180px;
-            margin: 30px 0px 0px 72px;
+            margin: 30px 0px 20px 65px;
         }
     }
-    /* ----- GIFs ----------- */
+
+
     .gif-container {
         width: 200px;
         height: 160px;
@@ -930,33 +882,26 @@ layout for section 4: Building & GIFs
         background-size: cover;
     }
 }
+  */
 
-//@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
- /* IE10+ specific styles go here */
- //.height-fix {
-     //height: 300px;
- //}
-//}
-/* Larger than mobile */
-@media (min-width: 400px) {
-}
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-}
-
-/* Larger than tablet */
-//@media (min-width: 750px) { }
 
 
 // GIF's do not need to be in a media query
 #gif-01 {
+
+}
+
+#gif-01.active {
     background: url(../assets/image/gifs/01.gif) center center no-repeat;
     background-size: cover;
 }
 
-
 #gif-02 {
+
+}
+
+#gif-02.active {
     background: url(../assets/image/gifs/02.gif) center center no-repeat;
     background-size: cover;
 }
@@ -972,18 +917,28 @@ layout for section 4: Building & GIFs
 }
 
 #gif-05 {
+
+}
+
+#gif-05.active {
     background: url(../assets/image/gifs/05.gif) center center no-repeat;
     background-size: cover;
 }
 
-
 #gif-06 {
+
+}
+
+#gif-06.active {
     background: url(../assets/image/gifs/06.gif) center center no-repeat;
     background-size: cover;
 }
 
-
 #gif-07 {
+
+}
+
+#gif-07.active {
     background: url(../assets/image/gifs/07.gif) center center no-repeat;
     background-size: cover;
 }
@@ -1038,7 +993,7 @@ layout for section 4: Building & GIFs
 }
 
 #gif-13.active {
-    background: url(../assets/image/gifs/13.gif) center center no-repeat;
+    background: url(../assets/image/gifs/06.gif) center center no-repeat;
     background-size: cover;
 }
 
@@ -1144,7 +1099,6 @@ layout for section 4: Building & GIFs
     background: url(../assets/image/gifs/24.gif) center center no-repeat;
     background-size: cover;
 }
-
 
 /*JPgs*/
 
