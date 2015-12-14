@@ -81,7 +81,7 @@ $(document).ready(function () {
                 }, 9000, 'easeOutExpo');
 
                 // showing button
-                $('#section1').find('#button-1').delay(1500).animate({
+                $('#section1').find('#button-1').delay(900).animate({
                     opacity: '100'
                 }, 1200, 'easeOutExpo');
 
@@ -108,7 +108,7 @@ $(document).ready(function () {
                 }, 9000, 'easeOutExpo');
                 
                 // showing button
-                $('#section2').find('#button-2').delay(1500).animate({
+                $('#section2').find('#button-2').delay(900).animate({
                     opacity: '100'
                 }, 1200, 'easeOutExpo');
               
@@ -136,7 +136,7 @@ $(document).ready(function () {
                 }, 9000, 'easeOutExpo');
 
                 // showing button
-                $('#section3').find('#button-3').delay(1500).animate({
+                $('#section3').find('#button-3').delay(900).animate({
                     opacity: '100'
                 }, 1200, 'easeOutExpo');
             } else if (index == 4) {               
