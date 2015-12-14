@@ -858,18 +858,12 @@ layout for section 4: Building & GIFs
 
 // GIF's do not need to be in a media query
 #gif-01 {
-
-}
-#gif-01.active {
     background: url(../assets/image/gifs/01.gif) center center no-repeat;
     background-size: cover;
 }
 
+
 #gif-02 {
-
-}
-
-#gif-02.active {
     background: url(../assets/image/gifs/02.gif) center center no-repeat;
     background-size: cover;
 }
@@ -885,28 +879,18 @@ layout for section 4: Building & GIFs
 }
 
 #gif-05 {
-
-}
-
-#gif-05.active {
     background: url(../assets/image/gifs/05.gif) center center no-repeat;
     background-size: cover;
 }
 
+
 #gif-06 {
-
-}
-
-#gif-06.active {
     background: url(../assets/image/gifs/06.gif) center center no-repeat;
     background-size: cover;
 }
 
+
 #gif-07 {
-
-}
-
-#gif-07.active {
     background: url(../assets/image/gifs/07.gif) center center no-repeat;
     background-size: cover;
 }
@@ -961,7 +945,7 @@ layout for section 4: Building & GIFs
 }
 
 #gif-13.active {
-    background: url(../assets/image/gifs/06.gif) center center no-repeat;
+    background: url(../assets/image/gifs/13.gif) center center no-repeat;
     background-size: cover;
 }
 
@@ -1067,6 +1051,7 @@ layout for section 4: Building & GIFs
     background: url(../assets/image/gifs/24.gif) center center no-repeat;
     background-size: cover;
 }
+
 
 /*JPgs*/
 

@@ -40,6 +40,8 @@ $(document).ready(function () {
         
         
         'afterLoad': function (anchorLink, index) {
+           
+
             if (index == 1) {                
                 //moving text
                 $('#section1').find('.text-1').delay(30).animate({
@@ -79,7 +81,7 @@ $(document).ready(function () {
                 }, 9000, 'easeOutExpo');
 
             } else if (index == 2) {
-                $('#gif-01').addClass('active');
+                //$('#gif-01').addClass('active');
                
                 //moving text
                 $('#section2').find('.text-2').delay(30).animate({
@@ -123,8 +125,7 @@ $(document).ready(function () {
                 $('#section3').find('.snowflake-5').delay(1250).animate({
                     top: '70%'
                 }, 9000, 'easeOutExpo');
-            } else if (index == 4) {
-                $('#gif-02, #gif-03, #gif-04, #gif-05, #gif-06, #gif-07').addClass('active');
+            } else if (index == 4) {               
                 $('#gif-08, #gif-09, #gif-10, #gif-11, #gif-12, #gif-13, #gif-14, #gif-15, #gif-16, #gif-17, #gif-18, #gif-19, #gif-20, #gif-21, #gif-22, #gif-23, #gif-24').addClass('active');
 
             }

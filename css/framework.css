@@ -594,11 +594,11 @@ layout for section 4: Building & GIFs
 /* Larger than mobile */
 /* Larger than phablet */
 /* Larger than tablet */
-#gif-01.active {
+#gif-01 {
   background: url(../assets/image/gifs/01.gif) center center no-repeat;
   background-size: cover; }
 
-#gif-02.active {
+#gif-02 {
   background: url(../assets/image/gifs/02.gif) center center no-repeat;
   background-size: cover; }
 
@@ -610,15 +610,15 @@ layout for section 4: Building & GIFs
   background: url(../assets/image/gifs/04.gif) center center no-repeat;
   background-size: cover; }
 
-#gif-05.active {
+#gif-05 {
   background: url(../assets/image/gifs/05.gif) center center no-repeat;
   background-size: cover; }
 
-#gif-06.active {
+#gif-06 {
   background: url(../assets/image/gifs/06.gif) center center no-repeat;
   background-size: cover; }
 
-#gif-07.active {
+#gif-07 {
   background: url(../assets/image/gifs/07.gif) center center no-repeat;
   background-size: cover; }
 
@@ -643,7 +643,7 @@ layout for section 4: Building & GIFs
   background-size: cover; }
 
 #gif-13.active {
-  background: url(../assets/image/gifs/06.gif) center center no-repeat;
+  background: url(../assets/image/gifs/13.gif) center center no-repeat;
   background-size: cover; }
 
 #gif-14.active {
