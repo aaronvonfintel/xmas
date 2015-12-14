@@ -80,6 +80,11 @@ $(document).ready(function () {
                     top: '35%'
                 }, 9000, 'easeOutExpo');
 
+                // showing button
+                $('#section1').find('#button-1').delay(1500).animate({
+                    opacity: '100'
+                }, 1200, 'easeOutExpo');
+
             } else if (index == 2) {
                 //$('#gif-01').addClass('active');
                
@@ -102,6 +107,10 @@ $(document).ready(function () {
                     top: '55%'
                 }, 9000, 'easeOutExpo');
                 
+                // showing button
+                $('#section2').find('#button-2').delay(1500).animate({
+                    opacity: '100'
+                }, 1200, 'easeOutExpo');
               
             } else if (index == 3) {
                 //moving text
@@ -125,6 +134,11 @@ $(document).ready(function () {
                 $('#section3').find('.snowflake-5').delay(1250).animate({
                     top: '70%'
                 }, 9000, 'easeOutExpo');
+
+                // showing button
+                $('#section3').find('#button-3').delay(1500).animate({
+                    opacity: '100'
+                }, 1200, 'easeOutExpo');
             } else if (index == 4) {               
                 $('#gif-08, #gif-09, #gif-10, #gif-11, #gif-12, #gif-13, #gif-14, #gif-15, #gif-16, #gif-17, #gif-18, #gif-19, #gif-20, #gif-21, #gif-22, #gif-23, #gif-24').addClass('active');
 
