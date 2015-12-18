@@ -111,11 +111,15 @@ img {
 .align-bottom {
   margin: 0, auto;
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  bottom: 0px;
   height: 30%;
   width: 100%;
   z-index: 200; }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .align-bottom {
+      /* IE10+ specific styles go here */
+      height: 280px; } }
 
 .button {
   margin: 0, auto;
@@ -132,6 +136,10 @@ img {
   transition: all 0.2s ease 0s;
   display: inline-block;
   opacity: 0; }
+  @media screen and (max-device-width: 580px) {
+    .button {
+      /* Styles */
+      width: 80%; } }
 
 .button:hover {
   border: 1px solid rgba(255, 255, 255, 0);
@@ -158,8 +166,14 @@ layout for section 1: intro
     left: 50%;
     width: 50%;
     max-width: 653px;
-    max-height: 398px;
     margin: -120px 0 0 -170px; }
+    @media screen and (max-device-width: 580px) {
+      #block-1 .text-1 {
+        /* Styles */
+        width: 100%;
+        padding: 60px 10px 0px 40px; }
+        #block-1 .text-1 img {
+          width: 680px; } }
   #block-1 .button-bottom {
     margin: 0, auto;
     position: absolute;
@@ -169,33 +183,49 @@ layout for section 1: intro
     width: 100%;
     z-index: 300;
     text-align: center; }
+    @media screen and (max-device-width: 680px) {
+      #block-1 .button-bottom {
+        /* Styles */
+        height: 140px; } }
   #block-1 .trees-left {
     position: relative;
     float: left;
     margin: 0,auto;
     height: 100%;
     width: 50%;
-    left: 0%; }
+    left: 0px; }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      #block-1 .trees-left {
+        /* IE10+ specific styles go here */
+        height: 280px; } }
     #block-1 .trees-left img {
       position: absolute;
-      bottom: 0; }
+      bottom: 0px; }
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        #block-1 .trees-left img {
+          /* IE10+ specific styles go here */
+          height: 100%; } }
     #block-1 .trees-left .tree-1 {
       position: absolute;
-      bottom: 0;
+      bottom: 0px;
       left: -50%;
       height: 100%;
       width: 28%;
       z-index: 220; }
     #block-1 .trees-left .tree-2 {
       position: absolute;
-      bottom: 0;
+      bottom: 0px;
       left: -50%;
       height: 80%;
       width: 20%;
       z-index: 210; }
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        #block-1 .trees-left .tree-2 {
+          /* IE10+ specific styles go here */
+          height: 200px; } }
     #block-1 .trees-left .tree-3 {
       position: absolute;
-      bottom: 0;
+      bottom: 0px;
       left: -50%;
       height: 100%;
       width: 28%;
@@ -206,9 +236,17 @@ layout for section 1: intro
     margin: 0,auto;
     height: 100%;
     width: 40%; }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      #block-1 .trees-right {
+        /* IE10+ specific styles go here */
+        height: 280px; } }
     #block-1 .trees-right img {
       position: absolute;
       bottom: 0; }
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        #block-1 .trees-right img {
+          /* IE10+ specific styles go here */
+          height: 100%; } }
     #block-1 .trees-right .tree-4 {
       position: absolute;
       bottom: 0;
@@ -216,6 +254,10 @@ layout for section 1: intro
       height: 100%;
       width: 28%;
       z-index: 220; }
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        #block-1 .trees-right .tree-4 {
+          /* IE10+ specific styles go here */
+          height: 180px; } }
     #block-1 .trees-right .tree-5 {
       position: absolute;
       bottom: 0;
@@ -268,9 +310,21 @@ layout for section 2: text block
   margin: -90px 0 0 -270px; }
   #block-2 .text-2 img {
     margin-left: -300px; }
+  @media screen and (max-device-width: 580px) {
+    #block-2 .text-2 {
+      /* Styles */
+      width: 100%;
+      padding: 60px 10px 0px 40px; }
+      #block-2 .text-2 img {
+        width: 680px;
+        margin-left: -100px; } }
 #block-2 .align-bottom {
   text-align: center;
   height: 200px; }
+  @media screen and (max-device-width: 580px) {
+    #block-2 .align-bottom {
+      /* Styles */
+      height: 140px; } }
 #block-2 .snowflake-1 {
   position: absolute;
   top: -20%;
@@ -315,9 +369,20 @@ layout for section 3: text block
   margin: 0 0 0 -140px; }
   #block-3 .text-3 img {
     float: right; }
+  @media screen and (max-device-width: 580px) {
+    #block-3 .text-3 {
+      /* Styles */
+      width: 100%;
+      margin: 0px 0px 0px -260px; }
+      #block-3 .text-3 img {
+        width: 680px; } }
 #block-3 .align-bottom {
   text-align: center;
   height: 200px; }
+  @media screen and (max-device-width: 580px) {
+    #block-3 .align-bottom {
+      /* Styles */
+      height: 140px; } }
 #block-3 .snowflake-1 {
   position: absolute;
   top: -20%;
@@ -373,15 +438,29 @@ layout for section 4: Building & GIFs
 }*/
   overflow: visible;
   /* ----- GIFs ----------- */ }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #block-4 {
+      /* IE10+ specific styles go here */ }
+      #block-4 .mountains {
+        display: none; } }
   #block-4 .container-scene {
     position: relative;
     margin: 0, auto;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    height: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* IE10+ specific styles go here */ }
   #block-4 .align-bottom {
     height: 15%;
     max-height: 220px;
     background: none; }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      #block-4 .align-bottom {
+        /* IE10+ specific styles go here */
+        height: 220px; } }
   #block-4 .trees-left {
     position: relative;
     float: left;
@@ -391,6 +470,10 @@ layout for section 4: Building & GIFs
     #block-4 .trees-left img {
       position: absolute;
       bottom: 0; }
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        #block-4 .trees-left img {
+          /* IE10+ specific styles go here */
+          height: 100%; } }
     #block-4 .trees-left .tree-1 {
       position: absolute;
       bottom: 0;
@@ -398,6 +481,10 @@ layout for section 4: Building & GIFs
       height: 100%;
       width: 33.33333%;
       z-index: 220; }
+      @media screen and (max-device-width: 680px) {
+        #block-4 .trees-left .tree-1 {
+          /* Styles */
+          display: none; } }
     #block-4 .trees-left .tree-2 {
       position: absolute;
       bottom: 0;
@@ -405,6 +492,10 @@ layout for section 4: Building & GIFs
       height: 100%;
       width: 33.33333%;
       z-index: 210; }
+      @media screen and (max-device-width: 680px) {
+        #block-4 .trees-left .tree-2 {
+          /* Styles */
+          display: none; } }
     #block-4 .trees-left .tree-3 {
       position: absolute;
       bottom: 0;
@@ -412,6 +503,11 @@ layout for section 4: Building & GIFs
       height: 100%;
       width: 33.33333%;
       z-index: 220; }
+      @media screen and (max-device-width: 680px) {
+        #block-4 .trees-left .tree-3 {
+          /* Styles */
+          left: 0%;
+          width: 100%; } }
   #block-4 .trees-right {
     position: relative;
     float: right;
@@ -421,6 +517,10 @@ layout for section 4: Building & GIFs
     #block-4 .trees-right img {
       position: absolute;
       bottom: 0; }
+      @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        #block-4 .trees-right img {
+          /* IE10+ specific styles go here */
+          height: 100%; } }
     #block-4 .trees-right .tree-4 {
       position: absolute;
       bottom: 0;
@@ -428,6 +528,10 @@ layout for section 4: Building & GIFs
       height: 100%;
       width: 50%;
       z-index: 220; }
+      @media screen and (max-device-width: 680px) {
+        #block-4 .trees-right .tree-4 {
+          /* Styles */
+          display: none; } }
     #block-4 .trees-right .tree-5 {
       position: absolute;
       bottom: 0;
@@ -435,9 +539,13 @@ layout for section 4: Building & GIFs
       height: 100%;
       width: 50%;
       z-index: 210; }
+      @media screen and (max-device-width: 680px) {
+        #block-4 .trees-right .tree-5 {
+          /* Styles */
+          width: 100%; } }
   #block-4 .container-building {
     position: relative;
-    display: inline-block;
+    display: inline-table;
     margin: 0, auto;
     margin-top: 100px;
     width: 80%;
@@ -446,7 +554,12 @@ layout for section 4: Building & GIFs
     text-align: center;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box; }
+    -moz-box-sizing: border-box;
+    padding: 0px; }
+    @media screen and (max-device-width: 580px) {
+      #block-4 .container-building {
+        /* Styles */
+        max-width: 500px; } }
     #block-4 .container-building .building-roof {
       width: 100%;
       height: 40px; }
@@ -478,6 +591,10 @@ layout for section 4: Building & GIFs
         #block-4 .container-building .building-tower .roof-tower img {
           width: auto;
           height: 100%; }
+        @media screen and (max-device-width: 680px) {
+          #block-4 .container-building .building-tower .roof-tower {
+            /* Styles */
+            width: 97%; } }
     #block-4 .container-building .roof-right {
       position: relative;
       float: right;
@@ -506,30 +623,44 @@ layout for section 4: Building & GIFs
         position: relative;
         max-width: calc(100% - 20px);
         display: inline-block; }
+        @media screen and (max-device-width: 680px) {
+          #block-4 .container-building .building-floors .center-me {
+            /* Styles */
+            max-width: 100%; } }
   #block-4 .building-bottom {
     width: 97.5%;
     height: 190px;
     background: #7a7d81;
     margin-left: 12px;
     margin-right: 116px;
+    margin-bottom: 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box; }
     #block-4 .building-bottom img {
       position: absolute;
       bottom: 0; }
+    @media screen and (max-device-width: 680px) {
+      #block-4 .building-bottom {
+        /* Styles */
+        margin: 0px 0px 0px 11px;
+        width: 90.75%; } }
   #block-4 .door {
     float: right;
     width: 35%;
     height: 100%;
-    overflow: hidden; }
+    overflow: auto; }
     #block-4 .door img {
       float: left; }
+    @media screen and (max-device-width: 680px) {
+      #block-4 .door {
+        /* Styles */
+        width: 68%; } }
   #block-4 .mountains {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 800px;
+    height: 600px;
     width: 100%;
     z-index: -1;
     background: url(../assets/image/mountains.svg) center bottom no-repeat;
@@ -538,45 +669,74 @@ layout for section 4: Building & GIFs
     position: relative;
     margin: 0, auto;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: #2c313b;
-    text-align: center; }
+    text-align: center;
+    padding-top: 20px;
+    overflow: auto; }
   #block-4 .snowman {
     position: absolute;
-    top: -80px;
+    top: 280px;
     left: 60px;
     z-index: 600; }
     #block-4 .snowman img {
       width: auto;
       height: 240px; }
+    @media screen and (max-device-width: 680px) {
+      #block-4 .snowman {
+        /* Styles */
+        display: none; } }
   #block-4 .gift {
     position: absolute;
     top: 120px;
     left: 140px;
-    z-index: 601; }
+    z-index: 601;
+    height: 180px;
+    overflow: hidden; }
     #block-4 .gift img {
       width: auto;
       height: 180px; }
+    @media screen and (max-device-width: 680px) {
+      #block-4 .gift {
+        /* Styles */
+        display: none; } }
   #block-4 .sled {
     position: absolute;
     top: 160px;
-    right: 2%;
+    right: -20px;
     z-index: 188; }
     #block-4 .sled img {
       width: auto;
       height: 240px; }
+    @media screen and (max-device-width: 680px) {
+      #block-4 .sled {
+        /* Styles */
+        display: none; } }
   #block-4 .xmas-message {
+    position: relative;
     width: 60%;
     max-width: 850px;
     display: inline-block;
     margin: 60px 20px 20px 20px; }
     #block-4 .xmas-message p {
       padding: 30px 100px 0px 100px; }
+      @media screen and (max-device-width: 680px) {
+        #block-4 .xmas-message p {
+          /* Styles */
+          padding: 30px 0px 30px 0px; } }
     #block-4 .xmas-message img {
       display: inline-block;
       width: auto;
       height: 180px;
-      margin: 30px 0px 20px 65px; }
+      margin: 30px 0px 0px 72px; }
+    @media screen and (max-device-width: 680px) {
+      #block-4 .xmas-message {
+        /* Styles */
+        width: 90%;
+        margin: 0px, auto; }
+        #block-4 .xmas-message h1 {
+          font-size: 44px;
+          line-height: 54px; } }
   #block-4 .gif-container {
     width: 200px;
     height: 160px;
@@ -587,10 +747,16 @@ layout for section 4: Building & GIFs
   #block-4 .gf {
     width: 400px;
     height: 160px; }
+    @media screen and (max-device-width: 680px) {
+      #block-4 .gf {
+        /* Styles */
+        width: 200px;
+        height: 80px; } }
   #block-4 .empty-window {
     background: url(../assets/image/windowEmpty.png) center center no-repeat;
     background-size: cover; }
 
+/* IE10+ specific styles go here */
 /* Larger than mobile */
 /* Larger than phablet */
 /* Larger than tablet */

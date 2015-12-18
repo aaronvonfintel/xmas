@@ -103,6 +103,7 @@ html.fp-enabled,
     top: 50%;
     opacity: 1;
     -webkit-transform: translate3d(0,0,0);
+
 }
 #fp-nav.right {
     right: 17px;
@@ -210,4 +211,11 @@ html.fp-enabled,
 .fp-auto-height .fp-slide,
 .fp-auto-height .fp-tableCell{
     height: auto !important;
+}
+
+@media screen and (max-device-width : 680px) {
+/* Styles */
+  #fp-nav {
+    display: none;
+  }
 }
