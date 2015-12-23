@@ -48,6 +48,12 @@ div {
   line-height: 72px;
   color: #fff; }
 
+h2 {
+  font-family: 'HelveticaNeueW01-45Ligh';
+  font-size: 38px;
+  line-height: 42px;
+  color: #fff; }
+
 body {
   font-family: 'HelveticaNeueW01-Thin';
   font-size: 18px;
@@ -141,9 +147,37 @@ img {
       /* Styles */
       width: 80%; } }
 
+.button-other {
+  margin: 0, auto;
+  margin-top: 20px;
+  width: 320px;
+  min-height: 58px;
+  border: 1px solid white;
+  font-family: 'HelveticaNeueW01-Thin';
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  background: none;
+  transition: all 0.2s ease 0s;
+  display: inline-block; }
+  @media screen and (max-device-width: 580px) {
+    .button-other {
+      /* Styles */
+      width: 95%;
+      margin-top: 30px;
+      padding-left: 10px;
+      padding-right: 10px; } }
+
 .button:hover {
   border: 1px solid rgba(255, 255, 255, 0);
   background: rgba(4, 36, 66, 0.8); }
+
+.button-other:hover {
+  border: 1px solid rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0.8);
+  color: #000; }
 
 a {
   text-decoration: none; }
@@ -737,6 +771,23 @@ layout for section 4: Building & GIFs
         #block-4 .xmas-message h1 {
           font-size: 44px;
           line-height: 54px; } }
+  #block-4 .container-makingof {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #212938;
+    padding: 80px 20px 80px 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center; }
+  #block-4 .screen {
+    width: 50%;
+    display: inline-block;
+    margin-top: 30px; }
+    #block-4 .screen img {
+      width: 100%;
+      height: auto; }
   #block-4 .gif-container {
     width: 200px;
     height: 160px;

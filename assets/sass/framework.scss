@@ -66,6 +66,13 @@ div {
     color: #fff;
 }
 
+h2 {
+    font-family: 'HelveticaNeueW01-45Ligh';
+    font-size: 38px;
+    line-height: 42px;
+    color: #fff;
+}
+
 
 body {
     font-family: 'HelveticaNeueW01-Thin';
@@ -184,12 +191,45 @@ img {
     }
 }
 
+.button-other {
+    margin: 0, auto;
+    margin-top: 20px;
+    width: 320px;
+    min-height: 58px;
+    border: 1px solid rgba(255,255,255,1.0);
+    font-family: 'HelveticaNeueW01-Thin';
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    background: none;
+    transition: all 0.2s ease 0s;
+    display: inline-block;
+    //opacity:0;
+
+    @media screen and (max-device-width : 580px) {
+    /* Styles */
+      width: 95%;
+      margin-top: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+}
 
 
 .button:hover {
     border: 1px solid rgba(255,255,255,0);
     //border: 1px solid rgba(4,36,66,1.0);
     background: rgba(4,36,66,0.8);
+}
+
+.button-other:hover {
+    border: 1px solid rgba(255,255,255,0);
+    //border: 1px solid rgba(4,36,66,1.0);
+    background: rgba(255,255,255,0.8);
+    color: #000;
 }
 
 a {
@@ -1049,6 +1089,30 @@ layout for section 4: Building & GIFs
             }
         }
     }
+
+    .container-makingof {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      background: #212938;
+      padding: 80px 20px 80px 20px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      text-align: center;
+    }
+
+    .screen {
+      width: 50%;
+      display: inline-block;
+      margin-top: 30px;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
     /* ----- GIFs ----------- */
     .gif-container {
         width: 200px;
