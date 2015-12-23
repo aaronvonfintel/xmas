@@ -996,7 +996,8 @@ layout for section 4: Building & GIFs
         background: #2c313b;
         text-align: center;
         padding-top: 20px;
-        overflow: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
     }
 
     .snowman {
@@ -1091,6 +1092,7 @@ layout for section 4: Building & GIFs
     }
 
     .container-makingof {
+      margin: 0, auto;
       width: 100%;
       height: auto;
       overflow: hidden;
